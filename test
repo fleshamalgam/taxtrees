@@ -1,0 +1,836 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                                     "xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/Profiles/xhtml1-strict">
+
+<head><title>Equisetum arvense</title></head>
+<body bgcolor='white'>
+   
+   <table width="100%" border="0" >
+	    <tbody>
+	      <tr>
+	        <td width="40"><img src="../../../logos/usda_black.jpg" width="30" height="21" alt=""/></td>
+	        <td width="39"><img src="../../../logos/fs_shield.jpg"  width="30" height="32" alt=""/></td>
+	        <td width="875"><font size="5"><strong><center>Fire Effects Information System (FEIS)</center></strong></font></td>
+	        <td width="221"><a href="https://www.feis-crs.org/feis/">FEIS Home Page</a></td>
+          </tr>
+        </tbody>
+  </table>
+
+<hr size="3" />
+<pre><font size="+1" color="green"><b>SPECIES:  Equisetum arvense</b></font><hr size="3"></pre>
+<font size="+1"><ul>
+<li><a href="all.html#INTRODUCTORY">Introductory</a>
+<li><a href="all.html#DISTRIBUTION AND OCCURRENCE">Distribution and Occurrence</a>
+<li><a href="all.html#MANAGEMENT CONSIDERATIONS">Management Considerations</a>
+<li><a href="all.html#BOTANICAL AND ECOLOGICAL CHARACTERISTICS">Botanical and Ecological Characteristics</a>
+<li><a href="all.html#FIRE ECOLOGY">Fire Ecology</a>
+<li><a href="all.html#FIRE EFFECTS">Fire Effects</a>
+<li><a href="all.html#REFERENCES">References</a>
+</ul></font>
+<hr>
+<a name="INTRODUCTORY"></a>
+
+
+<pre><center><h2>Introductory</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>AUTHORSHIP AND CITATION : </b>
+Sullivan, Janet. 1993. Equisetum arvense. In: Fire Effects Information System, [Online]. 
+U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, 
+Fire Sciences Laboratory (Producer). Available: 
+https://www.fs.usda.gov/database/feis/plants/fern/equarv/all.html [<script type="text/javascript"> 
+var months = new Array(12); 
+months[0] = "January"; 
+months[1] = "February"; 
+months[2] = "March"; 
+months[3] = "April"; 
+months[4] = "May"; 
+months[5] = "June"; 
+months[6] = "July"; 
+months[7] = "August"; 
+months[8] = "September"; 
+months[9] = "October";
+months[10] = "November"; 
+months[11] = "December"; 
+var date = new Date(); 
+var year = date.getFullYear(); 
+var month = date.getMonth(); 
+var day = date.getDate(); 
+document.write(year+", "+months[month]+" "+day); 
+</script>].
+
+<br><b>ABBREVIATION : </b>
+EQUARV
+
+<b>SYNONYMS : </b>
+   Equisetum arvense var. alpestre Wahlenb.
+   E. a. var. boreale (Bong.) Rupr.
+   E. a. var. riparium Farw.
+   E. calderi Boivin
+
+
+<b>SCS PLANT CODE : </b>
+   EQAR
+
+
+<b>COMMON NAMES : </b>
+   field horsetail
+   common horsetail
+   horsetail
+   bottlebrush
+   foxtail
+   queue de renard
+   pinetop
+   jointed rush
+   horse pipes
+   mare's tail
+   snake grass
+
+
+<b>TAXONOMY : </b>
+The accepted scientific name for field horsetail is Equisetum arvense L.
+Fernald [<a href="all.html#19">19</a>] listed E. a. var. boreale (Bong.) Ledeb., a northern
+variety.  There are a number of named forms that are not accepted by
+most authors as true forms; they may be growth variants that depend on
+environmental conditions and are not sufficiently distinct to warrant
+taxonomic recognition [<a href="all.html#9">9</a>,<a href="all.html#69">69</a>].
+
+Field horsetail and water horsetail (E. fluviatale) will hybridize de
+novo where they occur together.  The product, E. x litorale Kuhlewein is
+sterile, but vegetatively vigorous and persistent [<a href="all.html#23">23</a>].
+
+
+<b>LIFE FORM : </b>
+Fern or Fern Ally
+
+<b>FEDERAL LEGAL STATUS : </b>
+No special status
+
+<b>OTHER STATUS : </b>
+NO-ENTRY</pre> 
+<hr size="3"> 
+
+</pre>
+
+<pre><a name="DISTRIBUTION AND OCCURRENCE"></a>
+<center><h2>DISTRIBUTION AND OCCURRENCE</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>GENERAL DISTRIBUTION : </b>
+Field horsetail is cosmopolitan in distribution.&nbsp; In North America it
+occurs from Newfoundland west to Alaska and south to Georgia, Alabama,
+Texas, and California [<a href="all.html#19">19</a>,<a href="all.html#23">23</a>,<a href="all.html#25">25</a>].
+
+
+<b>ECOSYSTEMS : </b>
+&nbsp;&nbsp; FRES10&nbsp; White - red - jack pine
+&nbsp;&nbsp; FRES11&nbsp; Spruce - fir
+&nbsp;&nbsp; FRES12&nbsp; Longleaf - slash pine
+&nbsp;&nbsp; FRES13&nbsp; Loblolly - shortleaf pine
+&nbsp;&nbsp; FRES14&nbsp; Oak - pine
+&nbsp;&nbsp; FRES15&nbsp; Oak - hickory
+&nbsp;&nbsp; FRES16&nbsp; Oak - gum - cypress
+&nbsp;&nbsp; FRES17&nbsp; Elm - ash - cottonwood
+&nbsp;&nbsp; FRES18&nbsp; Maple - beech - birch
+&nbsp;&nbsp; FRES19&nbsp; Aspen - birch
+&nbsp;&nbsp; FRES20&nbsp; Douglas-fir
+&nbsp;&nbsp; FRES21&nbsp; Ponderosa pine
+&nbsp;&nbsp; FRES22&nbsp; Western white pine
+&nbsp;&nbsp; FRES23&nbsp; Fir - spruce
+&nbsp;&nbsp; FRES24&nbsp; Hemlock - Sitka spruce
+&nbsp;&nbsp; FRES25&nbsp; Larch
+&nbsp;&nbsp; FRES26&nbsp; Lodgepole pine
+&nbsp;&nbsp; FRES27&nbsp; Redwood
+&nbsp;&nbsp; FRES28&nbsp; Western hardwoods
+&nbsp;&nbsp; FRES36&nbsp; Mountain grasslands
+&nbsp;&nbsp; FRES37&nbsp; Mountain meadows
+&nbsp;&nbsp; FRES38&nbsp; Plains grasslands
+&nbsp;&nbsp; FRES39&nbsp; Prairie
+&nbsp;&nbsp; FRES41&nbsp; Wet grasslands
+
+
+<b>STATES : </b>
+&nbsp;&nbsp;&nbsp;&nbsp; AL&nbsp; AK&nbsp; AZ&nbsp; AR&nbsp; CA&nbsp; CO&nbsp; CT&nbsp; DE&nbsp; GA&nbsp; HI
+&nbsp;&nbsp;&nbsp;&nbsp; ID&nbsp; IN&nbsp; IA&nbsp; KS&nbsp; KY&nbsp; LA&nbsp; ME&nbsp; MD&nbsp; MA&nbsp; MI
+&nbsp;&nbsp;&nbsp;&nbsp; MN&nbsp; MS&nbsp; MO&nbsp; MT&nbsp; NE&nbsp; NV&nbsp; NH&nbsp; NJ&nbsp; NY&nbsp; NC
+&nbsp;&nbsp;&nbsp;&nbsp; ND&nbsp; OH&nbsp; OK&nbsp; OR&nbsp; PA&nbsp; RI&nbsp; SC&nbsp; SD&nbsp; TN&nbsp; TX
+&nbsp;&nbsp;&nbsp;&nbsp; UT&nbsp; VT&nbsp; VA&nbsp; WA&nbsp; WV&nbsp; WI&nbsp; WY&nbsp; AB&nbsp; BC&nbsp; MB
+&nbsp;&nbsp;&nbsp;&nbsp; NB&nbsp; NF&nbsp; NT&nbsp; NS&nbsp; ON&nbsp; PE&nbsp; PQ&nbsp; SK&nbsp; YT
+
+
+
+<b>BLM PHYSIOGRAPHIC REGIONS : </b>
+&nbsp;&nbsp;&nbsp; 1&nbsp; Northern Pacific Border
+&nbsp;&nbsp;&nbsp; 2&nbsp; Cascade Mountains
+&nbsp;&nbsp;&nbsp; 3&nbsp; Southern Pacific Border
+&nbsp;&nbsp;&nbsp; 4&nbsp; Sierra Mountains
+&nbsp;&nbsp;&nbsp; 5&nbsp; Columbia Plateau
+&nbsp;&nbsp;&nbsp; 6&nbsp; Upper Basin and Range
+&nbsp;&nbsp;&nbsp; 7&nbsp; Lower Basin and Range
+&nbsp;&nbsp;&nbsp; 8&nbsp; Northern Rocky Mountains
+&nbsp;&nbsp;&nbsp; 9&nbsp; Middle Rocky Mountains
+&nbsp;&nbsp; 10&nbsp; Wyoming Basin
+&nbsp;&nbsp; 11&nbsp; Southern Rocky Mountains
+&nbsp;&nbsp; 12&nbsp; Colorado Plateau
+&nbsp;&nbsp; 13&nbsp; Rocky Mountain Piedmont
+&nbsp;&nbsp; 14&nbsp; Great Plains
+&nbsp;&nbsp; 15&nbsp; Black Hills Uplift
+&nbsp;&nbsp; 16&nbsp; Upper Missouri Basin and Broken Lands
+
+
+<b>KUCHLER PLANT ASSOCIATIONS : </b>
+&nbsp;&nbsp; K001&nbsp; Spruce - cedar - hemlock forest
+&nbsp;&nbsp; K002&nbsp; Cedar - hemlock - Douglas-fir forest
+&nbsp;&nbsp; K003&nbsp; Silver fir - Douglas-fir forest
+&nbsp;&nbsp; K004&nbsp; Fir - hemlock forest
+&nbsp;&nbsp; K005&nbsp; Mixed conifer forest
+&nbsp;&nbsp; K006&nbsp; Redwood forest
+&nbsp;&nbsp; K007&nbsp; Red fir forest
+&nbsp;&nbsp; K008&nbsp; Lodgepole pine - subalpine forest
+&nbsp;&nbsp; K009&nbsp; Pine - cypress forest
+&nbsp;&nbsp; K010&nbsp; Ponderosa shrub forest
+&nbsp;&nbsp; K011&nbsp; Western ponderosa forest
+&nbsp;&nbsp; K012&nbsp; Douglas-fir forest
+&nbsp;&nbsp; K013&nbsp; Cedar - hemlock - pine forest
+&nbsp;&nbsp; K014&nbsp; Grand fir - Douglas-fir forest
+&nbsp;&nbsp; K015&nbsp; Western spruce - fir forest
+&nbsp;&nbsp; K016&nbsp; Eastern ponderosa forest
+&nbsp;&nbsp; K017&nbsp; Black Hills pine forest
+&nbsp;&nbsp; K018&nbsp; Pine - Douglas-fir forest
+&nbsp;&nbsp; K019&nbsp; Arizona pine forest
+&nbsp;&nbsp; K020&nbsp; Spruce - fir - Douglas-fir forest
+&nbsp;&nbsp; K021&nbsp; Southwestern spruce - fir forest
+&nbsp;&nbsp; K022&nbsp; Great Basin pine forest
+&nbsp;&nbsp; K025&nbsp; Alder - ash forest
+&nbsp;&nbsp; K026&nbsp; Oregon oakwoods
+&nbsp;&nbsp; K028&nbsp; Mosaic of K002 and K026
+&nbsp;&nbsp; K029&nbsp; California mixed evergreen forest
+&nbsp;&nbsp; K030&nbsp; California oakwoods
+&nbsp;&nbsp; K036&nbsp; Mosaic of K030 and K035
+&nbsp;&nbsp; K046&nbsp; Desert: vegetation largely lacking
+&nbsp;&nbsp; K047&nbsp; Fescue - oatgrass
+&nbsp;&nbsp; K048&nbsp; California steppe
+&nbsp;&nbsp; K049&nbsp; Tule marshes
+&nbsp;&nbsp; K050&nbsp; Fescue - wheatgrass
+&nbsp;&nbsp; K051&nbsp; Wheatgrass - bluegrass
+&nbsp;&nbsp; K052&nbsp; Alpine meadows and barren
+&nbsp;&nbsp; K053&nbsp; Grama - galleta steppe
+&nbsp;&nbsp; K054&nbsp; Grama - tobosa prairie
+&nbsp;&nbsp; K057&nbsp; Galleta - three-awn shrubsteppe
+&nbsp;&nbsp; K063&nbsp; Foothills prairie
+&nbsp;&nbsp; K064&nbsp; Grama - needlegrass - wheatgrass
+&nbsp;&nbsp; K065&nbsp; Grama - buffalograss
+&nbsp;&nbsp; K066&nbsp; Wheatgrass - needlegrass
+&nbsp;&nbsp; K067&nbsp; Wheatgrass - bluestem - needlegrass
+&nbsp;&nbsp; K068&nbsp; Wheatgrass - grama - buffalograss
+&nbsp;&nbsp; K069&nbsp; Bluestem - grama prairie
+&nbsp;&nbsp; K070&nbsp; Sandsage - bluestem prairie
+&nbsp;&nbsp; K072&nbsp; Sea oats prairie
+&nbsp;&nbsp; K073&nbsp; Northern cordgrass prairie
+&nbsp;&nbsp; K074&nbsp; Bluestem prairie
+&nbsp;&nbsp; K075&nbsp; Nebraska Sandhills prairie
+&nbsp;&nbsp; K076&nbsp; Blackland prairie
+&nbsp;&nbsp; K077&nbsp; Bluestem - sacahuista prairie
+&nbsp;&nbsp; K078&nbsp; Southern cordgrass prairie
+&nbsp;&nbsp; K079&nbsp; Palmetto prairie
+&nbsp;&nbsp; K080&nbsp; Marl - everglades
+&nbsp;&nbsp; K081&nbsp; Oak savanna
+&nbsp;&nbsp; K082&nbsp; Mosaic of K074 and K100
+&nbsp;&nbsp; K083&nbsp; Cedar glades
+&nbsp;&nbsp; K084&nbsp; Cross Timbers
+&nbsp;&nbsp; K085&nbsp; Mesquite - buffalograss
+&nbsp;&nbsp; K088&nbsp; Fayette prairie
+&nbsp;&nbsp; K089&nbsp; Black Belt
+&nbsp;&nbsp; K092&nbsp; Everglades
+&nbsp;&nbsp; K093&nbsp; Great Lakes spruce - fir forest
+&nbsp;&nbsp; K094&nbsp; Conifer bog
+&nbsp;&nbsp; K095&nbsp; Great Lakes pine forest
+&nbsp;&nbsp; K096&nbsp; Northeastern spruce - fir forest
+&nbsp;&nbsp; K097&nbsp; Southeastern spruce - fir forest
+&nbsp;&nbsp; K098&nbsp; Northern floodplain forest
+&nbsp;&nbsp; K099&nbsp; Maple - basswood forest
+&nbsp;&nbsp; K100&nbsp; Oak - hickory forest
+&nbsp;&nbsp; K101&nbsp; Elm - ash forest
+&nbsp;&nbsp; K102&nbsp; Beech - maple forest
+&nbsp;&nbsp; K103&nbsp; Mixed mesophytic forest
+&nbsp;&nbsp; K104&nbsp; Appalachian oak forest
+&nbsp;&nbsp; K106&nbsp; Northern hardwoods
+&nbsp;&nbsp; K107&nbsp; Northern hardwoods - fir forest
+&nbsp;&nbsp; K108&nbsp; Northern hardwoods - spruce forest
+&nbsp;&nbsp; K109&nbsp; Transition between K104 and K106
+&nbsp;&nbsp; K110&nbsp; Northeastern oak - pine forest
+&nbsp;&nbsp; K111&nbsp; Oak - hickory - pine forest
+&nbsp;&nbsp; K112&nbsp; Southern mixed forest
+&nbsp;&nbsp; K113&nbsp; Southern floodplain forest
+&nbsp;&nbsp; K114&nbsp; Pocosin
+&nbsp;&nbsp; K115&nbsp; Sand pine scrub
+&nbsp;&nbsp; K116&nbsp; Subtropical pine forest
+
+
+<b>SAF COVER TYPES : </b>
+&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp; Jack pine
+&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp; Balsam fir
+&nbsp;&nbsp;&nbsp; 12&nbsp; Black spruce
+&nbsp;&nbsp;&nbsp; 13&nbsp; Black spruce - tamarack
+&nbsp;&nbsp;&nbsp; 14&nbsp; Northern pin oak
+&nbsp;&nbsp;&nbsp; 15&nbsp; Red pine
+&nbsp;&nbsp;&nbsp; 16&nbsp; Aspen
+&nbsp;&nbsp;&nbsp; 17&nbsp; Pin cherry
+&nbsp;&nbsp;&nbsp; 18&nbsp; Paper birch
+&nbsp;&nbsp;&nbsp; 19&nbsp; Gray birch - red maple
+&nbsp;&nbsp;&nbsp; 20&nbsp; White pine - northern red oak - red maple
+&nbsp;&nbsp;&nbsp; 21&nbsp; Eastern white pine
+&nbsp;&nbsp;&nbsp; 22&nbsp; White pine - hemlock
+&nbsp;&nbsp;&nbsp; 23&nbsp; Eastern hemlock
+&nbsp;&nbsp;&nbsp; 24&nbsp; Hemlock - yellow birch
+&nbsp;&nbsp;&nbsp; 25&nbsp; Sugar maple - beech - yellow birch
+&nbsp;&nbsp;&nbsp; 26&nbsp; Sugar maple - basswood
+&nbsp;&nbsp;&nbsp; 27&nbsp; Sugar maple
+&nbsp;&nbsp;&nbsp; 28&nbsp; Black cherry - maple
+&nbsp;&nbsp;&nbsp; 30&nbsp; Red spruce - yellow birch
+&nbsp;&nbsp;&nbsp; 31&nbsp; Red spruce - sugar maple - beech
+&nbsp;&nbsp;&nbsp; 32&nbsp; Red spruce
+&nbsp;&nbsp;&nbsp; 33&nbsp; Red spruce - balsam fir
+&nbsp;&nbsp;&nbsp; 34&nbsp; Red spruce - Fraser fir
+&nbsp;&nbsp;&nbsp; 35&nbsp; Paper birch - red spruce - balsam fir
+&nbsp;&nbsp;&nbsp; 37&nbsp; Northern white-cedar
+&nbsp;&nbsp;&nbsp; 38&nbsp; Tamarack
+&nbsp;&nbsp;&nbsp; 39&nbsp; Black ash - American elm - red maple
+&nbsp;&nbsp;&nbsp; 40&nbsp; Post oak - blackjack oak
+&nbsp;&nbsp;&nbsp; 42&nbsp; Bur oak
+&nbsp;&nbsp;&nbsp; 43&nbsp; Bear oak
+&nbsp;&nbsp;&nbsp; 44&nbsp; Chestnut oak
+&nbsp;&nbsp;&nbsp; 45&nbsp; Pitch pine
+&nbsp;&nbsp;&nbsp; 46&nbsp; Eastern redcedar
+&nbsp;&nbsp;&nbsp; 50&nbsp; Black locust
+&nbsp;&nbsp;&nbsp; 51&nbsp; White pine - chestnut oak
+&nbsp;&nbsp;&nbsp; 52&nbsp; White oak - black oak - northern red oak
+&nbsp;&nbsp;&nbsp; 53&nbsp; White oak
+&nbsp;&nbsp;&nbsp; 55&nbsp; Northern red oak
+&nbsp;&nbsp;&nbsp; 57&nbsp; Yellow-poplar
+&nbsp;&nbsp;&nbsp; 58&nbsp; Yellow-poplar - eastern hemlock
+&nbsp;&nbsp;&nbsp; 59&nbsp; Yellow-poplar - white oak - northern red oak
+&nbsp;&nbsp;&nbsp; 60&nbsp; Beech - sugar maple
+&nbsp;&nbsp;&nbsp; 61&nbsp; River birch - sycamore
+&nbsp;&nbsp;&nbsp; 62&nbsp; Silver maple - American elm
+&nbsp;&nbsp;&nbsp; 63&nbsp; Cottonwood
+&nbsp;&nbsp;&nbsp; 64&nbsp; Sassafras - persimmon
+&nbsp;&nbsp;&nbsp; 65&nbsp; Pin oak - sweetgum
+&nbsp;&nbsp;&nbsp; 69&nbsp; Sand pine
+&nbsp;&nbsp;&nbsp; 70&nbsp; Longleaf pine
+&nbsp;&nbsp;&nbsp; 71&nbsp; Longleaf pine - scrub oak
+&nbsp;&nbsp;&nbsp; 72&nbsp; Southern scrub oak
+&nbsp;&nbsp;&nbsp; 73&nbsp; Southern redcedar
+&nbsp;&nbsp;&nbsp; 74&nbsp; Cabbage palmetto
+&nbsp;&nbsp;&nbsp; 75&nbsp; Shortleaf pine
+&nbsp;&nbsp;&nbsp; 76&nbsp; Shortleaf pine - oak
+&nbsp;&nbsp;&nbsp; 78&nbsp; Virginia pine - oak
+&nbsp;&nbsp;&nbsp; 79&nbsp; Virginia pine
+&nbsp;&nbsp;&nbsp; 80&nbsp; Loblolly pine - shortleaf pine
+&nbsp;&nbsp;&nbsp; 81&nbsp; Loblolly pine
+&nbsp;&nbsp;&nbsp; 82&nbsp; Loblolly pine - hardwood
+&nbsp;&nbsp;&nbsp; 83&nbsp; Longleaf pine - slash pine
+&nbsp;&nbsp;&nbsp; 84&nbsp; Slash pine
+&nbsp;&nbsp;&nbsp; 85&nbsp; Slash pine - hardwood
+&nbsp;&nbsp;&nbsp; 87&nbsp; Sweet gum - yellow-poplar
+&nbsp;&nbsp;&nbsp; 88&nbsp; Willow oak - water oak - diamondleaf oak
+&nbsp;&nbsp;&nbsp; 89&nbsp; Live oak
+&nbsp;&nbsp;&nbsp; 91&nbsp; Swamp chestnut oak - cherrybark oak
+&nbsp;&nbsp;&nbsp; 92&nbsp; Sweetgum - willow oak
+&nbsp;&nbsp;&nbsp; 93&nbsp; Sugarberry - American elm - green ash
+&nbsp;&nbsp;&nbsp; 94&nbsp; Sycamore - sweetgum - American elm
+&nbsp;&nbsp;&nbsp; 95&nbsp; Black willow
+&nbsp;&nbsp;&nbsp; 96&nbsp; Overcup oak - water hickory
+&nbsp;&nbsp;&nbsp; 97&nbsp; Atlantic white-cedar
+&nbsp;&nbsp;&nbsp; 98&nbsp; Pond pine
+&nbsp;&nbsp; 100&nbsp; Pondcypress
+&nbsp;&nbsp; 101&nbsp; Baldcypress
+&nbsp;&nbsp; 102&nbsp; Baldcypress - tupelo
+&nbsp;&nbsp; 103&nbsp; Water tupelo - swamp tupelo
+&nbsp;&nbsp; 104&nbsp; Sweetbay - swamp tupelo - redbay
+&nbsp;&nbsp; 107&nbsp; White spruce
+&nbsp;&nbsp; 108&nbsp; Red maple
+&nbsp;&nbsp; 109&nbsp; Hawthorn
+&nbsp;&nbsp; 110&nbsp; Black oak
+&nbsp;&nbsp; 111&nbsp; South Florida slash pine
+&nbsp;&nbsp; 201&nbsp; White spruce
+&nbsp;&nbsp; 202&nbsp; White spruce - paper birch
+&nbsp;&nbsp; 203&nbsp; Balsam poplar
+&nbsp;&nbsp; 204&nbsp; Black spruce
+&nbsp;&nbsp; 205&nbsp; Mountain hemlock
+&nbsp;&nbsp; 206&nbsp; Engelmann spruce - subalpine fir
+&nbsp;&nbsp; 207&nbsp; Red fir
+&nbsp;&nbsp; 208&nbsp; Whitebark pine
+&nbsp;&nbsp; 209&nbsp; Bristlecone pine
+&nbsp;&nbsp; 210&nbsp; Interior Douglas-fir
+&nbsp;&nbsp; 211&nbsp; White fir
+&nbsp;&nbsp; 212&nbsp; Western larch
+&nbsp;&nbsp; 213&nbsp; Grand fir
+&nbsp;&nbsp; 215&nbsp; Western white pine
+&nbsp;&nbsp; 216&nbsp; Blue spruce
+&nbsp;&nbsp; 217&nbsp; Aspen
+&nbsp;&nbsp; 218&nbsp; Lodgepole pine
+&nbsp;&nbsp; 219&nbsp; Limber pine
+&nbsp;&nbsp; 221&nbsp; Red alder
+&nbsp;&nbsp; 222&nbsp; Black cottonwood - willow
+&nbsp;&nbsp; 223&nbsp; Sitka spruce
+&nbsp;&nbsp; 224&nbsp; Western hemlock
+&nbsp;&nbsp; 225&nbsp; Western hemlock - Sitka spruce
+&nbsp;&nbsp; 226&nbsp; Coastal true fir - hemlock
+&nbsp;&nbsp; 227&nbsp; Western redcedar - western hemlock
+&nbsp;&nbsp; 228&nbsp; Western redcedar
+&nbsp;&nbsp; 229&nbsp; Pacific Douglas-fir
+&nbsp;&nbsp; 230&nbsp; Douglas-fir - western hemlock
+&nbsp;&nbsp; 231&nbsp; Port-Orford-cedar
+&nbsp;&nbsp; 232&nbsp; Redwood
+&nbsp;&nbsp; 233&nbsp; Oregon white oak
+&nbsp;&nbsp; 234&nbsp; Douglas-fir - tanoak - Pacific madrone
+&nbsp;&nbsp; 235&nbsp; Cottonwood - willow
+&nbsp;&nbsp; 236&nbsp; Bur oak
+&nbsp;&nbsp; 237&nbsp; Interior ponderosa pine
+&nbsp;&nbsp; 243&nbsp; Sierra Nevada mixed conifer
+&nbsp;&nbsp; 244&nbsp; Pacific ponderosa pine - Douglas-fir
+&nbsp;&nbsp; 245&nbsp; Pacific ponderosa pine
+&nbsp;&nbsp; 246&nbsp; California black oak
+&nbsp;&nbsp; 247&nbsp; Jeffrey pine
+&nbsp;&nbsp; 248&nbsp; Knobcone pine
+&nbsp;&nbsp; 249&nbsp; Canyon live oak
+&nbsp;&nbsp; 250&nbsp; Blue oak - Digger pine
+&nbsp;&nbsp; 251&nbsp; White spruce - aspen
+&nbsp;&nbsp; 252&nbsp; Paper birch
+&nbsp;&nbsp; 253&nbsp; Black spruce - white spruce
+&nbsp;&nbsp; 254&nbsp; Black spruce -&nbsp; paper birch
+&nbsp;&nbsp; 255&nbsp; California coast live oak
+&nbsp;&nbsp; 256&nbsp; California mixed subalpine
+
+
+<b>SRM (RANGELAND) COVER TYPES : </b>
+NO-ENTRY
+
+
+<b>HABITAT TYPES AND PLANT COMMUNITIES : </b>
+Field horsetail is abundant in many spruce communities, including white
+spruce (Picea glauca), black spruce (P. mariana), blue spruce (P.
+pungens), and Engelmann spruce (P. engelmannii).&nbsp; In Alberta and British
+Columbia, other common understory species in the white spruce
+communities in which field horsetail is abundant include prickly rose
+(Rosa acicularis), honeysuckle (Lonicera involucrata), bunchberry
+(Cornus canadensis), twinflower (Linnea borealis), naked miterwort
+(Mitella nuda), and mountain fern moss (Hylocomium splendens) [<a href="all.html#1">1</a>].
+
+Field horsetail is a common indicator or herbaceous layer dominant for
+mesic, hygric, and subhygric sites [<a href="all.html#3">3</a>,<a href="all.html#26">26</a>,<a href="all.html#40">40</a>].&nbsp; It occurs or is an
+herbaceous layer dominant in a number of riparian associations, with
+overstories of spruce, cottonwood (Populus spp.), willow (Salix spp.),
+paper birch (Betula papyrifera), or alder (Alnus spp.) [<a href="all.html#3">3</a>,<a href="all.html#30">30</a>,<a href="all.html#44">44</a>].
+
+Field horsetail occasionally dominates sites lacking a woody overstory;
+such sites are usually adjacent to a forest or shrub community [<a href="all.html#27">27</a>].&nbsp; In
+Alberta field horsetail dominates low shores of channels and lakes with
+water horsetail, water sedge (Carex aquatilis), and pendent grass
+(Artophila fulva) [<a href="all.html#47">47</a>].
+
+A selection of publications naming field horsetail as an indicator or
+herbaceous layer dominant is as follows:
+
+Old growth forests of the Canadian Rocky Mountain national parks [<a href="all.html#1">1</a>]
+Classification of the riparian vegetation of the montane and subalpine
+&nbsp;&nbsp; zones in western Colorado [<a href="all.html#3">3</a>]
+Forest community types of west-central Alberta in relation to selected
+&nbsp;&nbsp; environmental factors [<a href="all.html#10">10</a>]
+Classification and management of riparian and wetland sites in central
+&nbsp;&nbsp; and eastern Montana [<a href="all.html#26">26</a>]
+Riparian dominance types of Montana [<a href="all.html#27">27</a>]
+Habitat types on selected parts of the Gunnison and Uncompahgre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; National Forests [<a href="all.html#38">38</a>]
+Riparian zone associations: Deschutes, Ochoco, Fremont, and Winema&nbsp;&nbsp;
+&nbsp;&nbsp; National Forests [<a href="all.html#39">39</a>]
+Coniferous forest habitat types of northern Utah [<a href="all.html#48">48</a>]
+Wetland community type classification for west-central Montana [<a href="all.html#70">70</a>]
+Forest habitat types of Montana [<a href="all.html#53">53</a>]
+Vegetation and soils along the Dempster Highway, Yukon Territory:
+&nbsp;&nbsp; I. Vegetation types [<a href="all.html#57">57</a>]
+Forest habitat types of eastern Idaho-western Wyoming [<a href="all.html#71">71</a>]
+A riparian community classification study [<a href="all.html#67">67</a>]
+Riparian community type classification of eastern Idaho-western
+&nbsp;&nbsp; Wyoming [<a href="all.html#68">68</a>]
+</pre>
+
+<pre><a name="MANAGEMENT CONSIDERATIONS"></a>
+<center><h2>MANAGEMENT CONSIDERATIONS</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>IMPORTANCE TO LIVESTOCK AND WILDLIFE : </b>
+Field horsetail is a common food item consumed by grizzly bears [<a href="all.html#37">37</a>].
+On average, field horsetail formed 2.4 to 5.2 percent by volume of the
+grizzly bear summer diet in Yellowstone National Park and was ranked
+10th out of 32 food items in amount of consumption [<a href="all.html#49">49</a>].&nbsp; Field
+horsetail occurs in the wet meadows, marshes and moist cirque basins
+most often visited by grizzly bears in spring [<a href="all.html#2">2</a>].&nbsp; Field horsetail is a
+minor to important component in the spring and early summer diet of
+black bears [<a href="all.html#28">28</a>,<a href="all.html#32">32</a>].&nbsp; It is of low nutritive value [<a href="all.html#49">49</a>].
+
+Field horsetail is not an important range forage for livestock, and
+excessive amounts (more than 20 percent) in hay can cause scours,
+paralysis, and death in horses [<a href="all.html#36">36</a>].
+
+
+<b>PALATABILITY : </b>
+Field horsetail is low in palatability to livestock, deer, and elk [<a href="all.html#39">39</a>].
+
+
+<b>NUTRITIONAL VALUE : </b>
+The nutritive value of the sterile shoots of field horsetail, as
+percentage of dry weight, is as follows [<a href="all.html#49">49</a>]:
+
+protein&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15
+nitrogen-free extract&nbsp;&nbsp;&nbsp; 40.6
+ether extract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.7
+gross kilocalories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.9 per gram
+
+Aerial, fresh field horsetail nutritive components, as percentage of dry
+weight, are as follows [<a href="all.html#50">50</a>]:
+
+dry matter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100
+ash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18.5
+crude fiber&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23.5
+ether extract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.4
+nitrogen free extract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.3
+protein (nitrogen x 6.25)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3
+digestible protein for
+&nbsp;&nbsp; cattle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.4
+&nbsp;&nbsp; goats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.5
+&nbsp;&nbsp; horses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.0
+&nbsp;&nbsp; rabbits&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.8
+&nbsp;&nbsp; sheep&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.9
+
+
+<b>COVER VALUE : </b>
+Field horsetail provides poor to fair cover for wildlife [<a href="all.html#13">13</a>].
+
+
+<b>VALUE FOR REHABILITATION OF DISTURBED SITES : </b>
+NO-ENTRY
+
+
+<b>OTHER USES AND VALUES : </b>
+Native Americans and early settlers used tea made from field horsetail
+as a diuretic.&nbsp; Field horsetail was used as a cough medicine for horses.
+Dyes for clothing, lodges, and porcupine quills were made from field
+horsetail.&nbsp; It was used for scouring and polishing objects.&nbsp; The young
+shoots were eaten either cooked or raw [<a href="all.html#40">40</a>].
+
+Silica extracted from field horsetail is utilized for manufacture of
+remineralizing and diuretic medicinal products.&nbsp; Other potential uses of
+biogenic silica include industrial applications (abrasives, toothpaste,
+protective cloth, optical fibers, thickeners for paint, etc.),
+detergents, and cleaners.&nbsp; Leaf-odor constituents were used widely in th
+1970's in perfumes but are little used now.&nbsp; These constituents can be
+used as food flavors and flavor enhancers, and as animal repellants
+[<a href="all.html#63">63</a>].
+
+
+<b>OTHER MANAGEMENT CONSIDERATIONS : </b>
+Field horsetail is a weed in more than 25 crops of the world but is
+seldom the worst offender.&nbsp; It is probably toxic to surrounding
+vegetation due to high levels of alkaloids [<a href="all.html#33">33</a>].&nbsp; Field horsetail
+increases after soil cultivation with or without the application of
+herbicides [<a href="all.html#8">8</a>].&nbsp; It may be at least partially controlled by some
+herbicides [<a href="all.html#51">51</a>].
+
+Field horsetail is sensitive to moisture stress; drought conditions
+result in a reduction in the production of new shoots [<a href="all.html#8">8</a>].
+
+Repeated cultivation by hoeing reduces the number of mature shoots per
+acre [<a href="all.html#8">8</a>].&nbsp; It is recommended that agricultural land infested with field
+horsetail be deep-plowed each season to prevent deep rhizome
+development; however, this will probably not be successful if the
+rhizomes have already penetrated below plow-depth [<a href="all.html#33">33</a>].
+</pre>
+
+<pre><a name="BOTANICAL AND ECOLOGICAL CHARACTERISTICS"></a>
+<center><h2>BOTANICAL AND ECOLOGICAL CHARACTERISTICS</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>GENERAL BOTANICAL CHARACTERISTICS : </b>
+Field horsetail is a native, perennial, rhizomatous cryptogam.&nbsp; The
+sporophyte is dimorphic with unbranched, fertile (stroboliferous),
+spore-producing stems and branched, sterile stems.&nbsp; The spores germinate
+to produce a distinct gametophytic generation.&nbsp; The prothallus
+(gametophyte) is tiny, from 0.002 to 0.008 inch (0.5-2.0 mm) in height
+(occasionally up to 0.016 inch [4 mm] in the center) and irregularly
+lobed or branched [<a href="all.html#4">4</a>,<a href="all.html#14">14</a>].
+
+The sterile stems are jointed, hollow, usually erect, and bear up to 20
+whorls of slender branches [<a href="all.html#9">9</a>].&nbsp; They are usually from 2 to 24 inches
+(5-60 cm) tall, rarely to 40 inches (1 m) tall [<a href="all.html#25">25</a>].&nbsp; The inconspicuous,
+scalelike leaves occur in whorls at the nodes and are connected at their
+bases.&nbsp; The fertile stems are nonchlorophyllous and generally are from 2
+to 12 inches (5-30 cm) tall [<a href="all.html#19">19</a>,<a href="all.html#25">25</a>].&nbsp; The strobili are from 0.4 to 1.4
+inches (1-3.5 cm) long, peduncled, and blunt.&nbsp; The epidermis of both
+types of stems has regularly arranged, silicified projections [<a href="all.html#23">23</a>].
+
+The rhizomes of field horsetail are branched and creeping.&nbsp; They are
+similar to the aerial stems except that they are not hollow [<a href="all.html#9">9</a>].
+Storage tubers are produced on the rhizomes [<a href="all.html#19">19</a>].&nbsp; The rhizomes extend
+to a depth of 40 inches (100 cm) or more; 50 percent of the total
+rhizome weight is in the top 10 inches (25 cm) of soil, 23 percent in
+the next 9.2 inches (23 cm), and the rest deeper [<a href="all.html#65">65</a>].&nbsp; Successive,
+layered horizontal rhizome systems occur at about 12-inch (30 cm)
+intervals.&nbsp; Golub and Wetmore [<a href="all.html#24">24</a>] found five such layers by digging to
+a 6.6 foot (2 m) depth, noting that the system extended even deeper.
+Root development takes place at the bases of lateral branch buds, both
+on rhizomes and erect shoots [<a href="all.html#33">33</a>].
+
+
+<b>RAUNKIAER LIFE FORM : </b>
+&nbsp;&nbsp;
+&nbsp;&nbsp; Geophyte
+
+
+<b>REGENERATION PROCESSES : </b>
+The main mode of reproduction of field horsetail is asexual; conditions
+for the production of gametophytes from spores are limited and
+relatively rare [<a href="all.html#14">14</a>,<a href="all.html#45">45</a>].
+
+Asexual reproduction:&nbsp; Field horsetail spreads from extensive rhizomes.
+Even short segments of broken rhizomes (1.2 inches [3 cm]) will sprout
+[<a href="all.html#8">8</a>].&nbsp; Overwintering buds develop at the nodes of the rhizomes [<a href="all.html#29">29</a>].
+
+Sexual reproduction:&nbsp; The spores of field horsetail are equipped with
+elaters, which are long appendages that expand and contract with changes
+in humidity.&nbsp; Elaters function to dig the spore into the soil surface
+and to tangle spores together, thereby creating a larger propagule and
+increasing the probability that prothalli will be close enough to ensure
+fertilization.&nbsp; Elaters may also aid in wind dissemination.&nbsp; Spores
+released by the strobiliferous stems are dispersed by wind or water.
+The spores are thin-walled, short-lived, and quickly germinate under
+moist conditions [<a href="all.html#31">31</a>].&nbsp; The spores germinate to form prothalli:&nbsp; tiny
+plants only a few cell layers thick that are usually either male or
+female, producing only antheridia or archegonia, respectively.&nbsp; Swimming
+sperm are released by the antheridia and require water for transport to
+the egg-containing archegonia.&nbsp; After fertilization takes place, the
+sporophytic generation (the identifiable large plant) develops in situ,
+growing out of the prothallus.
+
+
+<b>SITE CHARACTERISTICS : </b>
+Field horsetail is a facultative wetland species [<a href="all.html#27">27</a>].&nbsp; Field horsetail
+occurs in woods, fields, meadows and swamps, and moist soils alongside
+streams, rivers, and lakes, and in disturbed areas [<a href="all.html#9">9</a>,<a href="all.html#25">25</a>].&nbsp; Field
+horsetail usually occurs on moist sites but can also be found on dry and
+barren sites such as roadsides, borrow pits, and railway embankments
+[<a href="all.html#9">9</a>,<a href="all.html#35">35</a>].&nbsp; Under suitably moist climatic conditions, gametophytes occur on
+newly deposited mud flats and gravel banks of rivers and lakes [<a href="all.html#14">14</a>].
+
+In the Adirondack Mountains of New York, field horsetail occurs from 210
+to 2,100 feet (64-640 m) in elevation [<a href="all.html#42">42</a>].&nbsp; In Alaska, field horsetail
+is widely distributed from sea level to alpine communities.&nbsp; On alpine
+sites it is found on heaths, moist meadows, and rocky slopes [<a href="all.html#56">56</a>].
+Field horsetail is found at a wide range of elevations.&nbsp; Elevational
+distributions from selected western states are as follows [<a href="all.html#13">13</a>]:
+
+Utah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4,700 to&nbsp; 8,000 feet (1,400-2,400 m)
+Colorado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5,100 to 10,800 feet (1,500-3,290 m)
+Wyoming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4,900 to&nbsp; 9,700 feet (1,500-3,000 m)
+Montana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2,900 to&nbsp; 4,600 feet (&nbsp; 880-1,400 m)
+
+
+<b>SUCCESSIONAL STATUS : </b>
+Facultative Seral Species
+
+Field horsetail is present in both seral and climax communities; its
+presence is largely dictated by edaphic conditions rather than shade or
+other factors.&nbsp; Field horsetail is an early colonizer on floodplain
+deposits.&nbsp; These communities are often destroyed by flooding before
+beingcan stabilized by willow establishment [<a href="all.html#62">62</a>].&nbsp; Field horsetail
+continues to be present through succession, occurring under more
+developed willow-alder communities, as an herbaceous layer dominant with
+meadow horsetail (Equisetum pratense) under open balsam poplar (Populus
+balsamifera)/thinleaf alder (Alnus tenuifolia) stands, and in the
+herbaceous layer of closed balsam poplar/white spruce communities [<a href="all.html#62">62</a>].
+
+Field horsetail is an early colonizer of moist, primary successional
+sites created by glacial retreat [<a href="all.html#59">59</a>].&nbsp; It is among the most common and
+abundant sprouter in areas disturbed by debris from drilling activity in
+northern Alaska.&nbsp; In most of these areas, field horsetail sprouted from
+rhizomes already present under the debris [<a href="all.html#17">17</a>].&nbsp; Logging or logging and
+burning may either maintain or increase field horsetail cover, depending
+on pretreatment levels and forest cover type [<a href="all.html#12">12</a>,<a href="all.html#15">15</a>].
+
+
+<b>SEASONAL DEVELOPMENT : </b>
+Strobiliferous shoot buds are initiated in July, August and into
+September.&nbsp; Vegetative buds are initiated in October and November.
+Strobiliferous buds elongate early in spring (March to May, depending on
+latitude), usually before the vegetative stems elongate [<a href="all.html#29">29</a>].&nbsp; Emergence
+is earliest in dry sandy places, later in wet or clay soils [<a href="all.html#9">9</a>].&nbsp; Spores
+are shed in early May in the Adirondack Mountains of New York [<a href="all.html#42">42</a>].&nbsp; The
+strobiliferous shoots die after the spores are shed [<a href="all.html#4">4</a>].&nbsp; Sterile stems
+emerge in May, producing branches after they are 3 to 5 inches (8-12 cm)
+in height [<a href="all.html#9">9</a>,<a href="all.html#33">33</a>].
+
+Stems are killed by hard frost but may live into winter in areas where
+they are protected [<a href="all.html#9">9</a>].&nbsp; Gametophytes are killed by frost; they do not
+live longer than one growing season [<a href="all.html#14">14</a>].
+</pre>
+
+<pre><a name="FIRE ECOLOGY"></a>
+<center><h2>FIRE ECOLOGY</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>FIRE ECOLOGY OR ADAPTATIONS : </b>
+Field horsetail usually occurs in moist habitats that do not undergo
+frequent fire.&nbsp; For example, in Idaho and Montana, it occurs in Fire
+Group 11 stands (as described by Bradley and others), which have a
+fire-return interval of 325 to 335 years (plus or minus 50 years).&nbsp; When
+fires do occur, however, they are often severe due to high fuel loads.
+Field horsetail is adapted to survive such fires; it has deep rhizomes
+that are not killed by even very hot fires [<a href="all.html#52">52</a>].&nbsp; Field horsetail also
+colonizes disturbed areas or new sites by wind-disseminated propagules,
+although this is probably rare [<a href="all.html#7">7</a>].
+
+<b>FIRE REGIMES:</b>
+Find fire regime information for the plant communities in which this 
+species may occur by entering the species name in the <a href="https://www.feis-crs.org/feis
+">FEIS home page</a> 
+under &quot;Find Fire Regimes&quot;.
+
+<b>POSTFIRE REGENERATION STRATEGY : </b>
+&nbsp;&nbsp; Rhizomatous herb, rhizome in soil
+&nbsp;&nbsp; Geophyte, growing points deep in soil
+&nbsp;&nbsp; Ground residual colonizer (on-site, initial community)
+&nbsp;&nbsp; Initial-offsite colonizer (off-site, initial community)
+</pre>
+
+<pre><a name="FIRE EFFECTS"></a>
+<center><h2>FIRE EFFECTS</h2></center>
+<font size="+1" color="green"><b>SPECIES: Equisetum arvense
+</b></font><hr size="3"><b>IMMEDIATE FIRE EFFECT ON PLANT : </b>
+Field horsetail is top-killed by most fires.&nbsp; The rhizomes are
+particularly resistant to fire because they are buried deep in the
+mineral soil [<a href="all.html#39">39</a>].
+
+
+<b>DISCUSSION AND QUALIFICATION OF FIRE EFFECT : </b>
+NO-ENTRY
+
+
+<b>PLANT RESPONSE TO FIRE : </b>
+Field horsetail regenerates rapidly after a fire [<a href="all.html#40">40</a>].&nbsp; The frequency of
+occurrence of field horsetail is usually unchanged or increased after
+fire.&nbsp; Gametophyte establishment requires the presence of moist,
+exposed mineral soils (as well as a source of spores) [<a href="all.html#7">7</a>].
+
+In the first summer following a late May, 1983, wildfire in white spruce
+stands, a number of herbaceous species established from seed.&nbsp; These
+included Bicknell geranium (Geranium bicknellii), Corydalis sempervirens,
+false dragonhead (Dracocephalum parviflorum), and fireweed.&nbsp; By 1985,
+they were replaced by more persistent species including field horsetail
+and bluejoint reedgrass (Calamagrostis canadensis) [<a href="all.html#61">61</a>].
+
+In newly burned white spruce sites, field horsetail occurred in most
+stands within weeks of the fire and gradually increased through postfire
+succession.&nbsp; Field horsetail is dominant in the herbaceous layer by 46
+to 150 years after fire and persists into the climax stage (300 or more
+years) [<a href="all.html#15">15</a>,<a href="all.html#21">21</a>].
+
+
+<b>DISCUSSION AND QUALIFICATION OF PLANT RESPONSE : </b>
+Hamilton's Research Papers (<a href="../../../pdfs/Research_Papers/64621_Hamilton_2006.pdf">Hamilton 2006a</a>, <a href="../../../pdfs/Research_Papers/64177_Hamilton_2006.pdf">Hamilton 2006b</a>) provide 
+information on prescribed fire and postfire response of many plant
+species, including field horsetail, that was not available when this 
+species review was originally written.
+
+
+<b>FIRE MANAGEMENT CONSIDERATIONS : </b>
+NO-ENTRY</pre>
+<a name="REFERENCES"></a>
+<h3>References for species: Equisetum arvense
+</h3>
+<hr>
+<blockquote><a name="1">1.</a> Achuff, Peter L.  1989.  Old-growth forests of the Canadian Rocky Mountain national parks.  Natural Areas Journal.  9(1):  12-26.  [7442]</blockquote>
+<blockquote><a name="2">2.</a> Almack, Jon.  1986.  Grizzly bear habitat use, food habits, and movements in the Selkirk Mountains, northern Idaho.  In: Contreras, Glen P.; Evans, Keith E., compilers. Proceedings--grizzly bear habitat symposium; 1985 April 30 - May 2; Missoula, MT. Gen. Tech. Rep. INT-207. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station: 150-157.  [10815]</blockquote>
+<blockquote><a name="3">3.</a> Baker, William L.  1989.  Classification of the riparian vegetation of the montane and subalpine zones in western Colorado.  The Great Basin Naturalist.  49(2):  214-228.  [7985]</blockquote>
+<blockquote><a name="4">4.</a> Bastin, Harold.  1955.  Plants without flowers.  New York: Philosophical Library. 146 p.  [20696]</blockquote>
+<blockquote><a name="5">5.</a> Beaven, George Francis; Oosting, Henry J.  1939.  Pocomoke Swamp: a study of a cypress swamp on the eastern shore of Maryland.  Bulletin of the Torrey Botanical Club.  66:  376-389.  [14507]</blockquote>
+<blockquote><a name="6">6.</a> Bernard, Stephen R.; Brown, Kenneth F.  1977.  Distribution of mammals, reptiles, and amphibians by BLM physiographic regions and A.W. Kuchler's associations for the eleven western states.  Tech. Note 301. Denver, CO: U.S. Department of the Interior, Bureau of Land Management. 169 p.  [434]</blockquote>
+<blockquote><a name="7">7.</a> Bradley, Anne F.; Noste, Nonan V.; Fischer, William C.  1992.  Fire ecology of forests and woodlands in Utah.  Gen. Tech. Rep. INT-287. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 128 p.  [18700]</blockquote>
+<blockquote><a name="8">8.</a> Cloutier, Daniel; Watson, Alan K.  1985.  Growth and regeneration of field horsetail (Equisetum arvense).  Weed Science.  33:  358-365.  [20699]</blockquote>
+<blockquote><a name="9">9.</a> Clute, Willard Nelson.  1928.  The fern allies of North America north of Mexico.  Joliet, IL: Willard N. Clute & Co.. 278 p.  [20695]</blockquote>
+<blockquote><a name="10">10.</a> Corns, I. G. W.  1983.  Forest community types of west-central Alberta in relation to selected environmental factors.  Canadian Journal of Forest Research.  13:  995-1010.  [691]</blockquote>
+<blockquote><a name="11">11.</a> Correll, Donovan S.  1956.  Ferns and fern allies of Texas.  Renner, TX: Texas Research Foundation. 188 p.  [20697]</blockquote>
+<blockquote><a name="12">12.</a> Crouch, Glenn L.  1985.  Effects of clearcutting a subalpine forest in central Colorado on wildlife habitat.  Res. Pap. RM-258. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station. 12 p.  [8225]</blockquote>
+<blockquote><a name="13">13.</a> Dittberner, Phillip L.; Olson, Michael R.  1983.  The plant information network (PIN) data base: Colorado, Montana, North Dakota, Utah, and Wyoming.  FWS/OBS-83/86. Washington, DC: U.S. Department of the Interior, Fish and Wildlife Service. 786 p.  [806]</blockquote>
+<blockquote><a name="14">14.</a> Duckett, J. G.; Duckett, A. R.  1980.  Reproductive biology and population dynamics of wild gametophytes of Equisetum.  Botanical Journal of the Linnean Society.  80:  1-40.  [20700]</blockquote>
+<blockquote><a name="15">15.</a> Dyrness, C. T.; Viereck, L. A.; Foote, M. J.; Zasada, J. C.  1988.  The effect on vegetation and soil temperature of logging flood-plain white spruce.  Res. Pap. PNW-RP-392. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 45 p.  [7471]</blockquote>
+<blockquote><a name="16">16.</a> Dyrness, C. T.; Viereck, L. A.; Van Cleve, K.  1986.  Fire in taiga communities of interior Alaska.  In: Forest ecosystems in the Alaskan taiga. New York: Springer-Verlag: 74-86.  [3881]</blockquote>
+<blockquote><a name="17">17.</a> Ebersole, James J.  1987.  Short-term vegetation recovery at an Alaskan arctic coastal plain site.  Arctic and Alpine Research.  19(4):  442-450.  [9476]</blockquote>
+<blockquote><a name="18">18.</a> Eyre, F. H., ed.  1980.  Forest cover types of the United States and Canada.  Washington, DC: Society of American Foresters. 148 p.  [905]</blockquote>
+<blockquote><a name="19">19.</a> Fernald, Merritt Lyndon.  1950.  Gray's manual of botany.  [Corrections supplied by R. C. Rollins]. Portland, OR: Dioscorides Press. 1632 p. (Dudley, Theodore R., gen. ed.; Biosystematics, Floristic & Phylogeny Series; vol. 2)  [14935]</blockquote>
+<blockquote><a name="20">20.</a> Foote, Geoffrey G.  1965.  Phytosociology of the bottomland hardwood forests in western Montana.  Missoula, MT: Univeristy of Montana. 140 p. Thesis.  [17369]</blockquote>
+<blockquote><a name="21">21.</a> Foote, M. Joan.  1983.  Classification, description, and dynamics of plant communities after fire in the taiga of interior Alaska.  Res. Pap. PNW-307. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 108 p.  [7080]</blockquote>
+<blockquote><a name="22">22.</a> Garrison, George A.; Bjugstad, Ardell J.; Duncan, Don A.; [and others].  1977.  Vegetation and environmental features of forest and range ecosystems.  Agric. Handb. 475. Washington, DC: U.S. Department of Agriculture, Forest Service. 68 p.  [998]</blockquote>
+<blockquote><a name="23">23.</a> Gleason, Henry A.; Cronquist, Arthur.  1991.  Manual of vascular plants of northeastern United States and adjacent Canada. 2nd ed.  New York: New York Botanical Garden. 910 p.  [20329]</blockquote>
+<blockquote><a name="24">24.</a> Golub, Samuel J.; Wetmore, Ralph H.  1948.  Studies of development in the vegetative shoot of Equisetum arvense L. I. The shoot apex.  The American Journal of Botany.  35:  755-767.  [34818]</blockquote>
+<blockquote><a name="25">25.</a> Great Plains Flora Association.  1986.  Flora of the Great Plains.  Lawrence, KS: University Press of Kansas. 1392 p.  [1603]</blockquote>
+<blockquote><a name="26">26.</a> Hansen, Paul; Boggs, Keith; Pfister, Robert; Joy, John.  1990.  Classification and management of riparian and wetland sites in central and eastern Montana.  Missoula, MT: University of Montana, School of Forestry, Montana Forest and Conservation Experiment Station, Montana Riparian Association. 279 p.  [12477]</blockquote>
+<blockquote><a name="27">27.</a> Hansen, Paul L.; Chadde, Steve W.; Pfister, Robert D.  1988.  Riparian dominance types of Montana.  Misc. Publ. No. 49. Missoula, MT: University of Montana, School of Forestry, Montana Forest and Conservation Experiment Station. 411 p.  [5660]</blockquote>
+<blockquote><a name="28">28.</a> Hatler, David F.  1972.  Food habits of black bears in interior Alaska.  Canadian Field-Naturalist.  86(1):  17-31.  [10389]</blockquote>
+<blockquote><a name="29">29.</a> Hauke, Richard L.  1985.  The transition from vegetative to reproductive growth of shoot apices of holoheterophyadic spp. of Equisetum: phenology, morphol. & anatomy.  Canadian Journal of Botany.  63:  2430-2438.  [20701]</blockquote>
+<blockquote><a name="30">30.</a> Hawk, G. M.; Zobel, D. B.  1974.  Forest succession on alluvial landforms of the McKenzie River Valley, Oregon.  Northwest Science.  48(4):  245-265.  [9686]</blockquote>
+<blockquote><a name="31">31.</a> Hill, R. H.; Wagner, W. H.  1974.  Seasonality and spore type of the Pteridophytes of Michigan.  Michigan Botanist.  13:  40-44.  [9999]</blockquote>
+<blockquote><a name="32">32.</a> Holcroft, Anne C.; Herrero, Stephen.  1991.  Black bear, Ursus americanus, food habits in southwestern Alberta.  Canadian Field-Naturalist.  105(3):  335-345.  [18673]</blockquote>
+<blockquote><a name="33">33.</a> Holm, L. G.; Plocknett, D. L.; Pancho, J. V.; Herberger, J. P.  1977.  The world's worst weeds: distribution and biology.  Honolulu, HI: University Press of Hawaii. [Pages unknown].  [20702]</blockquote>
+<blockquote><a name="34">34.</a> Kartesz, John T.; Kartesz, Rosemarie.  1980.  A synonymized checklist of the vascular flora of the United States, Canada, and Greenland. Volume II: The biota of North America.  Chapel Hill, NC: The University of North Carolina Press; in confederation with Anne H. Lindsey and C. Richie Bell, North Carolina Botanical Garden. 500 p.  [6954]</blockquote>
+<blockquote><a name="35">35.</a> Kershaw, G. Peter; Kershaw, Linda J.  1987.  Successful plant colonizers on disturbances in tundra areas of northwestern Canada.  Arctic and Alpine Research.  19(4):  451-460.  [6115]</blockquote>
+<blockquote><a name="36">36.</a> Kingsbury, John M.  1964.  Poisonous plants of the United States and Canada.  Englewood Cliffs, NJ: Prentice-Hall, Inc. 626 p.  [122]</blockquote>
+<blockquote><a name="37">37.</a> Knight, Richard R; Blanchard, Bonnie M.  1983.  Yellowstone grizzly bear investigations: Annual report of the Interagency Study Team: 1982.  Washington, DC: U.S. Department of the Interior, National Park Service. 45 p.  [20703]</blockquote>
+<blockquote><a name="38">38.</a> Komarkova, Vera.  1986.  Habitat types on selected parts of the Gunnison and Uncompahgre National Forests.  Final Report Contract No. 28-K2-234. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station. 270 p.  [1369]</blockquote>
+<blockquote><a name="39">39.</a> Kovalchik, Bernard L.  1987.  Riparian zone associations: Deschutes, Ochoco, Fremont, and Winema National Forests.  R6 ECOL TP-279-87. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 171 p.  [9632]</blockquote>
+<blockquote><a name="40">40.</a> Kovalchik, Bernard L.; Hopkins, William E.; Brunsfeld, Steven J.  1988.  Major indicator shrubs and herbs in riparian zones on National Forests of central Oregon.  R6-ECOL-TP-005-88. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 159 p.  [8995]</blockquote>
+<blockquote><a name="41">41.</a> Kuchler, A. W.  1964.  Manual to accompany the map of potential vegetation of the conterminous United States.  Special Publication No. 36. New York: American Geographical Society. 77 p.  [1384]</blockquote>
+<blockquote><a name="42">42.</a> Kudish, Michael.  1992.  Adirondack upland flora: an ecological perspective.  Saranac, NY: The Chauncy Press. 320 p.  [19376]</blockquote>
+<blockquote><a name="43">43.</a> Little, Elbert L., Jr.  1979.  Checklist of United States trees (native and naturalized).  Agric. Handb. 541. Washington, DC: U.S. Department of Agriculture, Forest Service. 375 p.  [2952]</blockquote>
+<blockquote><a name="44">44.</a> MacCracken, James G.; Viereck, Leslie A.  1990.  Browse regrowth and use by moose after fire in interior Alaska.  Northwest Science.  64(1):  11-18.  [10803]</blockquote>
+<blockquote><a name="45">45.</a> Marshall, G.  1984.  A review of the biology of Equisetum arvense L. (field horsetail).  Aspects of Applied Biology.  8:  25-32.  [20704]</blockquote>
+<blockquote><a name="46">46.</a> Marshall, George.  1986.  Growth and development of field horsetail (Equisetum arvense).  Weed Science.  34:  271-275.  [20705]</blockquote>
+<blockquote><a name="47">47.</a> Martell, Arthur M.; Dickinson, Dawn M.; Casselman, Lisa M.  1984.  Wildlife of the Mackenzie Delta region.  Occasional Publ. No. 15. Edmonton, AB: The University of Alberta, Boreal Institute for Northern Studies. 214 p.  [15014]</blockquote>
+<blockquote><a name="48">48.</a> Mauk, Ronald L.; Henderson, Jan A.  1984.  Coniferous forest habitat types of northern Utah.  Gen. Tech. Rep. INT-170. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 89 p.  [1553]</blockquote>
+<blockquote><a name="49">49.</a> Mealey, Stephen Patrick.  1975.  The natural food habits of free ranging grizzly bears in Yellowstone National Park, 1973-1974.  Bozeman, MT: Montana State University. 158 p. Thesis.  [10580]</blockquote>
+<blockquote><a name="50">50.</a> National Academy of Sciences.  1971.  Atlas of nutritional data on United States and Canadian feeds.  Washington, DC: National Academy of Sciences. 772 p.  [1731]</blockquote>
+<blockquote><a name="51">51.</a> Pacific Northwest Extension Service.  1983.  Field horsetail.  PNW 105. Pullman, WA; Corvallis, OR; Moscow, ID: Pacific Northwest Extension Service. 1 p.  [6556]</blockquote>
+<blockquote><a name="52">52.</a> Parminter, John.  1983.  Fire-ecological relationships for the biogeoclimatic zones and subzones of the Fort Nelson Timber Supply Area: summary report.  In: Northern Fire Ecology Project: Fort Nelson Timber Supply Area. Victoria, BC: Province of British Columbia, Ministry of Forests. 53 p.  [9203]</blockquote>
+<blockquote><a name="53">53.</a> Pfister, Robert D.; Kovalchik, Bernard L.; Arno, Stephen F.; Presby, Richard C.  1977.  Forest habitat types of Montana.  Gen. Tech. Rep. INT-34. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 174 p.  [1878]</blockquote>
+<blockquote><a name="54">54.</a> Radford, Albert E.; Ahles, Harry E.; Bell, C. Ritchie.  1968.  Manual of the vascular flora of the Carolinas.  Chapel Hill, NC: The University of North Carolina Press. 1183 p.  [7606]</blockquote>
+<blockquote><a name="55">55.</a> Raunkiaer, C.  1934.  The life forms of plants and statistical plant geography.  Oxford: Clarendon Press. 632 p.  [2843]</blockquote>
+<blockquote><a name="56">56.</a> Robuck, O. Wayne.  1989.  Common alpine plants of southeast Alaska.  Misc. Publ. ---. Juneau, AK: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station, Forestry Sciences Laboratory. 207 p.  [17693]</blockquote>
+<blockquote><a name="57">57.</a> Stanek, W.; Alexander, K.; Simmons, C. S.  1981.  Reconnaissance of vegetation and soils along the Dempster Highway, Yukon Territory: I. Vegetation types.  BC-X-217. Victoria, BC: Environment Canada, Canadian Forestry Service, Pacific Forest Research Centre. 32 p.  [16526]</blockquote>
+<blockquote><a name="58">58.</a> Stickney, Peter F.  1989.  Seral origin of species originating in northern Rocky Mountain forests.  Unpublished draft on file at: U.S. Department of Agriculture, Forest Service, Intermountain Research Station, Fire Sciences Laboratory, Missoula, MT; RWU 4403 files. 10 p.  [20090]</blockquote>
+<blockquote><a name="59">59.</a> Ugolini, F. C.  1968.  Soil development and alder invasion in a recently deglaciated area of Glacier Bay, Alaska.  In: Trappe, J. M.; Franklin, J. F.; Tarrant, R. F.; Hansen, G. M., eds. Biology of alder: Proceedings of a symposium; 1967 April 14-15; Pullman, WA. Portland, OR: U. S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station: 115-140.  [6211]</blockquote>
+<blockquote><a name="60">60.</a> U.S. Department of Agriculture, Soil Conservation Service.  1982.  National list of scientific plant names. Vol. 1. List of plant names.  SCS-TP-159. Washington, DC. 416 p.  [11573]</blockquote>
+<blockquote><a name="61">61.</a> Van Cleve, K.; Viereck, L.A.; Dyrness, C.T.  1988.  Vegetation productivity and soil fertility in post-fire secondary succession in Interior Alaska.  In: Slaughter, Charles W.; Gasbarro, Tony. Proceedings of the Alaska forest soil productivity workshop; 1987 April 28-30; Anchorage, AK. Gen. Tech. Rep. PNW-GTR-219. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Station; Fairbanks, AK: University of Alaska, School of Agriculture and Land Resources Management: 101-102.  [5582]</blockquote>
+<blockquote><a name="62">62.</a> Viereck, Leslie A.  1989.  Flood-plain succession and vegetation classification in interior Alaska.  In: Ferguson, Dennis E.; Morgan, Penelope; Johnson, Frederic D., compilers. Proceedings--land classifications based on vegetation: applications for resource management; 1987 November 17-19; Moscow, ID. Gen. Tech. Rep. INT-257. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station: 197-203.  [6959]</blockquote>
+<blockquote><a name="63">63.</a> Vilarem, Gerard; Perineau, Francis; Gaset, Antoine.  1992.  Exploitation of the molecular potential of plants: Equisetum arvense (Equisetaceae).  Economic Botany.  46(4):  401-407.  [20706]</blockquote>
+<blockquote><a name="64">64.</a> Vines, Robert A.  1960.  Trees, shrubs, and woody vines of the Southwest.  Austin, TX: University of Texas Press. 1104 p.  [7707]</blockquote>
+<blockquote><a name="65">65.</a> Williams, E. D.  1979.  Studies on the depth distribution and on the germination and growth of Equisetum arvense L. (field horsetail) from tubers.  Weed Research.  19:  25-32.  [20707]</blockquote>
+<blockquote><a name="66">66.</a> Wright, Henry A.; Bailey, Arthur W.  1982.  Fire ecology: United States and southern Canada.  New York: John Wiley & Sons. 501 p.  [2620]</blockquote>
+<blockquote><a name="67">67.</a> Young, Richard P., compiler.  1980.  A riparian community classification study.  Cooperative project between Utah State University and the U.S. Forest Service, Region IV. Final Report. Logan, UT: Utah State University, Department of Range Science. 77 p.  [11734]</blockquote>
+<blockquote><a name="68">68.</a> Youngblood, Andrew P.; Padgett, Wayne G.; Winward, Alma H.  1985.  Riparian community type classification of eastern Idaho - western Wyoming.  R4-Ecol-85-01. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Region. 78 p.  [2686]</blockquote>
+<blockquote><a name="69">69.</a> Hauke, R. L.  1967.  A systematic study of Equisetum arvense.  Nova Hedwigia.  8:  81-109.  [20698]</blockquote>
+<blockquote><a name="70">70.</a> Hermanutz, L. A.; Innes, D. J.; Weis, I. M.  1989.  Clonal structure of arctic dwarf birch (Betula glandulosa) at its northern limit.  American Journal of Botany.  76(5):  755-761.  [7346]</blockquote>
+<blockquote><a name="71">71.</a> Steele, Robert; Cooper, Stephen V.; Ondov, David M.; [and others].  1983.  Forest habitat types of eastern Idaho-western Wyoming.  Gen. Tech. Rep. INT-144. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 122 p.  [2230]</blockquote>
+
+<hr size="3">
+	
+<script type="text/javascript">
+												var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+												document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+											</script>
+											<script type="text/javascript">
+												try {
+												var pageTracker = _gat._getTracker("UA-8449148-1");
+												pageTracker._trackPageview();
+												} catch(err) {}
+											</script>
+<a href="https://www.feis-crs.org/feis/">FEIS Home Page</a>
+</body>
+</html>
+										   
