@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Editable FEIS-Style Page</title>
+  <title>Editable FEIS Page</title>
   <style>
     body {
       margin: 0;
@@ -16,6 +16,9 @@
       padding: 12px 20px;
       font-size: 20px;
       font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     .container {
       display: flex;
@@ -39,28 +42,116 @@
       white-space: pre-wrap;
       outline: none;
     }
+    button {
+      font-family: monospace;
+      font-size: 14px;
+      padding: 6px 12px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    Species Information System (Editable)
+    Species Information Editor
+    <button onclick="saveContent()">💾 Save to Public Site</button>
   </header>
 
   <div class="container">
     <nav>
       <strong>Sections</strong>
       <ul>
-        <li><em>(Empty for now)</em></li>
+        <li><em>(Optional links)</em></li>
       </ul>
     </nav>
 
     <main>
       <div id="editor" class="editor" contenteditable="true" spellcheck="false">
-        <!-- Start typing your content here. -->
+        <!-- Start typing your FEIS-style content here -->
       </div>
     </main>
   </div>
+
+  <script>
+    async function saveContent() {
+      const content = document.getElementById("editor").innerHTML;
+      const token = prompt("Enter your GitHub Personal Access Token:");
+
+      if (!token) return alert("No token entered.");
+
+      const filePath = "index.html";
+      const repo = "fleshamalgam/taxtrees";
+      const branch = "main";
+
+      const getUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+      const headers = {
+        "Authorization": `token ${token}`,
+        "Accept": "application/vnd.github.v3+json"
+      };
+
+      try {
+        const getRes = await fetch(getUrl, { headers });
+        const fileData = await getRes.json();
+        const sha = fileData.sha;
+
+        const newHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Species Page</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #ffffff; color: #000; }
+    header { background-color: #336633; color: white; padding: 12px 20px; font-size: 20px; font-weight: bold; }
+    .container { display: flex; }
+    nav { width: 220px; background-color: #eeeeee; padding: 15px; border-right: 1px solid #ccc; height: 100vh; box-sizing: border-box; }
+    main { flex-grow: 1; padding: 20px; }
+    .content { padding: 20px; }
+  </style>
+</head>
+<body>
+  <header>Species Information Page</header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><em>(Optional links)</em></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="content">
+${content}
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+`;
+
+        const updateRes = await fetch(getUrl, {
+          method: "PUT",
+          headers,
+          body: JSON.stringify({
+            message: "Update site content via edit.html",
+            content: btoa(unescape(encodeURIComponent(newHtml))),
+            sha: sha,
+            branch: branch
+          })
+        });
+
+        if (updateRes.ok) {
+          alert("✅ Content updated! View it at:\nhttps://fleshamalgam.github.io/taxtrees/");
+        } else {
+          const error = await updateRes.json();
+          console.error(error);
+          alert("❌ Error saving: " + error.message);
+        }
+      } catch (err) {
+        console.error(err);
+        alert("❌ Failed to fetch or update file.");
+      }
+    }
+  </script>
 
 </body>
 </html>
