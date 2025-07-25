@@ -30,7 +30,8 @@
     .content {
       padding: 10px;
       white-space: pre-wrap;
-      min-height: 300px;
+      min-height: 400px;
+      outline: none;
     }
   </style>
 </head>
@@ -38,9 +39,12 @@
   <div class="window">
     <div class="title-bar">Untitled - Notepad</div>
     <div class="menu-bar">File  Edit  Format  View  Help</div>
-    <div class="content">
-This is a Notepad-style webpage.
-You can write anything here.
+    <div
+      class="content"
+      contenteditable="true"
+      spellcheck="false"
+    >
+This is a Notepad-style text area. Click here and start typing!
     </div>
   </div>
 </body>
