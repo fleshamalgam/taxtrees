@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FEIS Editor</title>
+  <meta charset="UTF-8" />
+  <title>FEIS Notepad Editor</title>
   <style>
     body {
-      background-color: #ffffff;
-      color: #000000;
       margin: 0;
       font-family: "Courier New", Courier, monospace;
+      background-color: white;
+      color: black;
     }
     .toolbar {
       background-color: #336633;
       color: white;
       padding: 10px 15px;
-      font-weight: bold;
+      font-size: 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 16px;
-    }
-    button {
-      font-family: monospace;
-      font-size: 14px;
-      padding: 6px 10px;
-      cursor: pointer;
+      font-weight: bold;
     }
     #editor {
       width: 100%;
@@ -32,28 +26,35 @@
       padding: 20px;
       white-space: pre;
       overflow: auto;
-      outline: none;
       font-family: "Courier New", Courier, monospace;
+      font-size: 14px;
       line-height: 1.2;
+      outline: none;
+    }
+    button {
+      font-family: monospace;
+      font-size: 14px;
+      padding: 6px 12px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
 
   <div class="toolbar">
-    FEIS Notepad Editor
+    FEIS Editor
     <button onclick="saveContent()">💾 Save to Public Site</button>
   </div>
 
   <pre id="editor" contenteditable="true" spellcheck="false">
-ABBREVIATION : 
+ABBREVIATION :
 EQUARV
 
-SYNONYMS : 
-Equisetum arvense var. alpestre Wahlenb.
-E. a. var. boreale (Bong.) Rupr.
-E. a. var. riparium Farw.
-E. calderi Boivin
+SYNONYMS :
+  Equisetum arvense var. alpestre Wahlenb.
+  E. a. var. boreale (Bong.) Rupr.
+  E. a. var. riparium Farw.
+  E. calderi Boivin
   </pre>
 
   <script>
@@ -61,12 +62,14 @@ E. calderi Boivin
       const content = document.getElementById("editor").innerText;
       const token = prompt("Enter your GitHub Personal Access Token:");
 
-      if (!token) return alert("No token entered.");
+      if (!token) {
+        alert("❌ No token entered.");
+        return;
+      }
 
       const repo = "fleshamalgam/taxtrees";
       const filePath = "index.html";
       const branch = "main";
-
       const apiUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
       const headers = {
         "Authorization": `token ${token}`,
@@ -78,54 +81,41 @@ E. calderi Boivin
         const fileData = await getRes.json();
         const sha = fileData.sha;
 
-        const newHtml = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset='UTF-8'>
-  <title>FEIS Species Page</title>
-  <style>
-    body {
-      background-color: #ffffff;
-      color: #000000;
-      margin: 0;
-      font-family: "Courier New", Courier, monospace;
-    }
-    pre {
-      white-space: pre;
-      padding: 20px;
-      font-family: "Courier New", Courier, monospace;
-      line-height: 1.2;
-    }
-  </style>
-</head>
-<body>
-<pre>
+        const fullHtml = `
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Custom FEIS Page</title></head>
+<body bgcolor="white">
+<hr size="3">
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: 14px; line-height: 1.2;">
 ${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
 </pre>
+<hr size="3">
 </body>
 </html>`;
 
-        const response = await fetch(apiUrl, {
+        const updateRes = await fetch(apiUrl, {
           method: "PUT",
           headers,
           body: JSON.stringify({
-            message: "Update FEIS content",
-            content: btoa(unescape(encodeURIComponent(newHtml))),
-            sha: sha,
-            branch: branch
+            message: "Update site content via FEIS editor",
+            content: btoa(unescape(encodeURIComponent(fullHtml))),
+            sha,
+            branch
           })
         });
 
-        if (response.ok) {
-          alert("✅ Saved! View your site at:\nhttps://fleshamalgam.github.io/taxtrees/");
+        if (updateRes.ok) {
+          alert("✅ Updated! Visit your site:\nhttps://fleshamalgam.github.io/taxtrees/");
         } else {
-          const err = await response.json();
-          alert("❌ Save failed: " + (err.message || "Unknown error"));
+          const err = await updateRes.json();
           console.error(err);
+          alert("❌ Save failed: " + (err.message || "unknown error"));
         }
       } catch (err) {
         console.error(err);
-        alert("❌ Failed to update file.");
+        alert("❌ Error fetching or updating file.");
       }
     }
   </script>
