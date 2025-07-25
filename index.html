@@ -33,42 +33,19 @@
       min-height: 400px;
       outline: none;
     }
-    .upload-area {
-      margin: 20px auto;
-      text-align: center;
-    }
-    input[type="file"] {
-      font-size: 14px;
-    }
   </style>
 </head>
 <body>
-  <div class="upload-area">
-    <label for="fileInput"><strong>Upload a .txt file:</strong></label>
-    <input type="file" id="fileInput" accept=".txt">
-  </div>
-
   <div class="window">
     <div class="title-bar">Untitled - Notepad</div>
     <div class="menu-bar">File  Edit  Format  View  Help</div>
-    <div class="content" id="textDisplay">
-      (Upload a .txt file to see its contents here.)
+    <div
+      class="content"
+      contenteditable="true"
+      spellcheck="false"
+    >
+This is a Notepad-style text area. Click here and start typing!
     </div>
   </div>
-
-  <script>
-    document.getElementById('fileInput').addEventListener('change', function(event) {
-      const file = event.target.files[0];
-      if (file && file.type === "text/plain") {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          document.getElementById('textDisplay').textContent = e.target.result;
-        };
-        reader.readAsText(file);
-      } else {
-        alert("Please upload a valid .txt file.");
-      }
-    });
-  </script>
 </body>
 </html>
