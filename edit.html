@@ -38,6 +38,7 @@
     .editor {
       font-family: "Courier New", Courier, monospace;
       white-space: pre-wrap;
+      line-height: 1.1;
       min-height: 90vh;
       border: 1px solid #ccc;
       padding: 20px;
@@ -69,13 +70,14 @@
 
     <main>
       <div id="editor" class="editor" contenteditable="true" spellcheck="false">
-ABBREVIATION :
+ABBREVIATION:
+EQUARV
 
-SYNONYMS :
-
-SCS PLANT CODE :
-
-COMMON NAMES :
+SYNONYMS:
+  Equisetum arvense var. alpestre Wahlenb.
+  E. a. var. boreale (Bong.) Rupr.
+  E. a. var. riparium Farw.
+  E. calderi Boivin
       </div>
     </main>
   </div>
@@ -137,9 +139,10 @@ COMMON NAMES :
       flex-grow: 1;
       padding: 20px;
     }
-    .content {
+    pre.content {
       font-family: "Courier New", Courier, monospace;
       white-space: pre-wrap;
+      line-height: 1.1;
       padding: 20px;
     }
   </style>
@@ -153,9 +156,9 @@ COMMON NAMES :
       </ul>
     </nav>
     <main>
-      <div class="content">
+      <pre class="content">
 ${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
-      </div>
+      </pre>
     </main>
   </div>
 </body>
