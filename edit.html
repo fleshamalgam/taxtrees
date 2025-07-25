@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Notepad</title>
+  <style>
+    body { margin: 0; background: #c0c0c0; font-family: "Courier New", monospace; }
+    .window { width: 80%; margin: 50px auto; border: 2px solid #000; box-shadow: 5px 5px #555; background: white; }
+    .title-bar { background: #000080; color: white; padding: 4px 8px; font-weight: bold; }
+    .menu-bar { background: #e0e0e0; padding: 4px 8px; font-size: 14px; display: flex; justify-content: space-between; }
+    .content { padding: 10px; white-space: pre-wrap; min-height: 400px; outline: none; }
+    button { font-family: monospace; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">Edit Mode - Notepad</div>
+    <div class="menu-bar">
+      <span>File  Edit  Format  View  Help</span>
+      <button onclick="saveContent()">💾 Save</button>
+    </div>
+    <div class="content" id="editor" contenteditable="true" spellcheck="false">
+Edit your content here. Click "Save" to update the live page.
+    </div>
+  </div>
+
+  <script>
+    async function saveContent() {
+      const content = document.getElementById("editor").innerText;
+      const token = prompt("Enter your GitHub Personal Access Token:");
+
+      if (!token) return alert("No token provided. Cancelled.");
+
+      const filePath = "index.html"; // File to overwrite
+      const repo = "yourusername/notepad-site"; // CHANGE THIS
+      const branch = "main";
+
+      const getUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+      const headers = {
+        "Authorization": `token ${token}`,
+        "Accept": "application/vnd.github.v3+json"
+      };
+
+      // Get current SHA
+      const response = await fetch(getUrl, { headers });
+      const fileData = await response.json();
+      const sha = fileData.sha;
+
+      // New HTML content (wrap inside full HTML)
+      const newHtml = `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled - Notepad</title>
+  <style>
+    body { margin: 0; background: #c0c0c0; font-family: "Courier New", monospace; }
+    .window { width: 80%; margin: 50px auto; border: 2px solid #000; box-shadow: 5px 5px #555; background: white; }
+    .title-bar { background: #000080; color: white; padding: 4px 8px; font-weight: bold; }
+    .menu-bar { background: #e0e0e0; padding: 4px 8px; font-size: 14px; }
+    .content { padding: 10px; white-space: pre-wrap; min-height: 400px; }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">Untitled - Notepad</div>
+    <div class="menu-bar">File  Edit  Format  View  Help</div>
+    <div class="content">
+${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
+    </div>
+  </div>
+</body>
+</html>`;
+
+      const updateResponse = await fetch(getUrl, {
+        method: "PUT",
+        headers,
+        body: JSON.stringify({
+          message: "Update notepad content",
+          content: btoa(unescape(encodeURIComponent(newHtml))),
+          sha: sha,
+          branch: branch
+        })
+      });
+
+      if (updateResponse.ok) {
+        alert("✅ Saved! Refresh the main site.");
+      } else {
+        alert("❌ Error saving. Check token and permissions.");
+      }
+    }
+  </script>
+</body>
+</html>
