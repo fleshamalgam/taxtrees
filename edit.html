@@ -27,12 +27,12 @@ Edit your content here. Click "Save" to update the live page.
   <script>
     async function saveContent() {
       const content = document.getElementById("editor").innerText;
-      const token = prompt("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");
+      const token = prompt("Enter your GitHub Personal Access Token:");
 
       if (!token) return alert("No token provided. Cancelled.");
 
-      const filePath = "index.html"; // File to overwrite
-      const repo = "https://fleshamalgam.github.io/taxtrees"; // CHANGE THIS
+      const filePath = "index.html";
+      const repo = "fleshamalgam/taxtrees";
       const branch = "main";
 
       const getUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
@@ -41,13 +41,17 @@ Edit your content here. Click "Save" to update the live page.
         "Accept": "application/vnd.github.v3+json"
       };
 
-      // Get current SHA
-      const response = await fetch(getUrl, { headers });
-      const fileData = await response.json();
-      const sha = fileData.sha;
+      try {
+        const response = await fetch(getUrl, { headers });
+        const fileData = await response.json();
 
-      // New HTML content (wrap inside full HTML)
-      const newHtml = `
+        if (!fileData.sha) {
+          throw new Error("Could not find SHA for file. Check that index.html exists in the root of the repo.");
+        }
+
+        const sha = fileData.sha;
+
+        const newHtml = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,21 +76,27 @@ ${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
 </body>
 </html>`;
 
-      const updateResponse = await fetch(getUrl, {
-        method: "PUT",
-        headers,
-        body: JSON.stringify({
-          message: "Update notepad content",
-          content: btoa(unescape(encodeURIComponent(newHtml))),
-          sha: sha,
-          branch: branch
-        })
-      });
+        const updateResponse = await fetch(getUrl, {
+          method: "PUT",
+          headers,
+          body: JSON.stringify({
+            message: "Update Notepad content via edit.html",
+            content: btoa(unescape(encodeURIComponent(newHtml))),
+            sha: sha,
+            branch: branch
+          })
+        });
 
-      if (updateResponse.ok) {
-        alert("✅ Saved! Refresh the main site.");
-      } else {
-        alert("❌ Error saving. Check token and permissions.");
+        if (updateResponse.ok) {
+          alert("✅ Saved! View your site at:\nhttps://fleshamalgam.github.io/taxtrees/");
+        } else {
+          const error = await updateResponse.json();
+          console.error(error);
+          alert("❌ Error saving: " + (error.message || "Unknown error."));
+        }
+      } catch (err) {
+        console.error(err);
+        alert("❌ Failed to fetch file info. Check if index.html exists and token is valid.");
       }
     }
   </script>
