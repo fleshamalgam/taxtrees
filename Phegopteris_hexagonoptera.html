@@ -1,42 +1,146 @@
-<style>
-mark { 
-  background-color: #98ff98;
-  color: #101010;
-}
-a {
-  color: #6C8BD9;
-}
-body {
-    font-size: 16px; /* Slightly larger than default (~16px) */
-}
-</style>
-<html xmlns="http://www.w3.org/Profiles/xhtml1-strict">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Phegopteris hexagonoptera</title>
+  <style>
+    body {
+      background-color: #101010;
+      color: white;
+      font-family: monospace;
+      font-size: 14px;
+      margin: 0;
+      padding: 20px;
+    }
 
-<head><title>Phegopteris hexagonoptera</title></head>
-<body bgcolor="#101010" text="white">
+    mark {
+      background-color: #98ff98;
+      color: #101010;
+    }
 
-<table width="100%" border="0" >
-    <tbody>
-      <tr>
-        <td width="875"><font size="+5"><strong><center><pre>T  A  X  T  R  E  E  S</pre></center></strong></font></td>
-        <td width="221"><a href="https://fleshamalgam.github.io/taxtrees/homepage">HOME</a></td>
-      </tr>
-    </tbody>
-</table>
-<pre>
-<hr size="5" />
-<font size="+4" color=#98ff98><b>Phegopteris hexagonoptera</b></font>
-<font size="+3" color=#98ff98><i>broad beech fern</i></font>
+    a {
+      color: #6C8BD9;
+      text-decoration: none;
+    }
 
-<hr size="2">
-<li><a href="https://fleshamalgam.github.io/taxtrees/Phegopteris_hexagonoptera.html#TAXONOMY">taxonomy</a>
-<li><a href="https://fleshamalgam.github.io/taxtrees/Phegopteris_hexagonoptera.html#DISTRIBUTION">distribution</a>
+    a:hover {
+      text-decoration: underline;
+    }
 
-<hr><a name="TAXONOMY"></a><pre><center><h2><font size="+3">
-TAXONOMY</h2></center></font><font size="+2" color=#98ff98><b>SPECIES: Phegopteris hexagonoptera</b>
-</b></font><hr size="2"><h2><font size="+1">
-<table align="center"><tr><td><div align="left"><pre>
-<b>Division</b>                             Tracheophyta
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+
+    .title {
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+      white-space: pre;
+      flex: 1; /* makes it grow to take available space */
+    }
+
+    hr.thick {
+      border: 0;
+      height: 5px;
+      background: white;
+      margin: 20px 0;
+    }
+
+    hr.thin {
+      border: 0;
+      height: 2px;
+      background: white;
+      margin: 10px 0;
+    }
+
+    .common-name-header {
+      font-size: 2em;
+      color: #98ff98;
+      font-weight: bold;
+    }
+
+    .species-header {
+      font-size: 1.1em;
+      color: #98ff98;
+      font-weight: bold;
+    }
+
+    .subsection {
+      font-size: 1.5em;
+      color: #98ff98;
+      font-style: italic;
+    }
+
+    .taxonomy, .distribution-map {
+      display: flex;
+      justify-content: center;
+      white-space: pre;
+      font-size: 1.1em;
+    }
+
+    .content-block {
+      white-space: pre-wrap;    /* preserve spaces and line breaks */
+      font-family: monospace;   /* match <pre> font style */
+      word-wrap: break-word;    /* wrap long words if needed */
+      max-width: 800px;
+      margin: 0;
+      padding: 0px;
+    }
+
+    .indented {
+      padding-left: 1ch; /* indent all following lines */
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.75em;
+      color: white;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: #6C8BD9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">T  A  X  T  R  E  E  S</div>
+    <div><a href="https://fleshamalgam.github.io/taxtrees/homepage">HOME</a></div>
+  </header>
+
+  <hr class="thick" />
+  
+  <div class="common-name-header">Phegopteris hexagonoptera</div>
+  <div class="subsection">broad beech fern</div>
+  
+  <hr class="thin" />
+
+  <ul>
+    <li><a href="#TAXONOMY">taxonomy</a></li>
+    <li><a href="#DISTRIBUTION">distribution</a></li>
+  </ul>
+
+                                            <!--  TAXONOMY HEADER  -->
+
+<hr class="thin" />
+<h2 id="TAXONOMY">TAXONOMY</h2>
+<div class="species-header">SPECIES: Phegopteris hexagonoptera</div>
+<hr class="thin" />
+  
+                                            <!--     TAX TREE      -->
+                                            
+  <div class="taxonomy">
+<pre><b>Division</b>                             Tracheophyta
    └─<b>Subdivision</b>                     Polypodiophytina
       └─<b>Class</b>                        Polypodiopsida
          └─<b>Subclass</b>                  Polypodiidae
@@ -45,85 +149,96 @@ TAXONOMY</h2></center></font><font size="+2" color=#98ff98><b>SPECIES: Phegopter
                   └─<b>Family</b>           Thelypteridaceae
                      └─<b>Subfamily</b>     Phegopteridoideae
                            └─<b>Genus</b>   <a href="all.html#BOTANICAL AND ECOLOGICAL CHARACTERISTICS">Phegopteris</a>
-</pre></div></td></tr></table></h2></font>
+</pre>
+</div>
 
-<b>TAXONOMIC CODE : </b>
-   PHEHEX
+                                            <!-- TAXONOMY TEXT BOX -->
 
-<b>ITIS SERIAL ID : </b>
-   504296
+<div class="content-block">
+<b>TAXONOMIC CODE:</b> 
+ PHEHEX
 
-<b>FULL LATIN NAME : </b>
-   <i>Phegopteris hexagonoptera* (Michx.) Fée</i>
+<b>ITIS SERIAL ID:</b> 
+ 504296
 
-<b>SYNONYMS : </b>
-   <i>Thelypteris hexagonoptera (Michx.) Weath.,
-   Dryopteris hexagonoptera (Michx.) C. Chr.</i>
+<b>FULL LATIN NAME:</b> 
+ <i>Phegopteris hexagonoptera</i> (Michx.) Fée
 
-<b>COMMON NAME(S) : </b>
-   southern beech fern, 
-   broad beech fern
+<b>SYNONYMS:</b> 
+ <i>Thelypteris hexagonoptera</i> (Michx.) Weath.
+ <i>Dryopteris hexagonoptera</i> (Michx.) C. Chr.
 
-<b>OCCURENCE : </b>
-   iNaturalist reports 565 total observations of <i>P. hexagonoptera</i> in Maryland. 
-   Of the 34,491 observed <i></i>Polypodiopsida</i> species, <i>P. hexagonoptera</i> makes up 
-   1.64% of all observations, or ~1 in 61 observed ferns.
+<b>COMMON NAME(S):</b>
+ southern beech fern 
+ broad beech fern<br />
+<b>OCCURRENCE:</b>
+<div class="indented">iNaturalist reports 565 total observations of <i>P. hexagonoptera</i> in Maryland. Of the 34,491 observed <i>Polypodiopsida</i> species, <i>P. hexagonoptera</i> makes up 1.64% of all observations, or ~1 in 61 observed ferns.</div>
+<b>HABITAT:</b> 
+ Forests, swamps, wetland margins
 
-<b>HABITAT : </b>
-   Forests, swamps, wetland margins
+<b>GROWTH FORM:</b> 
+ Terrestrial
 
-<b>GROWTH FORM : </b>
-Terrestrial
+</div>
 
-<hr><a name="DISTRIBUTION"></a><pre><center><h2><font size="+3">
-DISTRIBUTION</h2></center></font><font size="+2" color=#98ff98><b>SPECIES: Phegopteris hexagonoptera</b>
-</b></font><hr size="2">
-<table align="center">
-<tr><td><div align="left"><h2><font size="+1"><pre>
-    _____________________________________________________         
-   |         <s>AL</s>  ______   <mark>WA</mark>                <mark>HA</mark>    ___ <mark>CE</mark> |         
-   |  <mark>GA</mark>     ___/      \_         <mark>CV</mark>   <mark>BA</mark>       _/  /    |         
-   |     ___/            \   <mark>FR</mark>               _/  _/     |         
-   | ___/                 \_      <mark>HO</mark>   <mark>BC</mark>    /   /    <mark>KE</mark> |         
-   |/                       \_ <mark>MO</mark>           |   /        |         
-                              \_        <mark>AA</mark>  /  /   <mark>QA</mark>    |         
-      <mark> AA </mark>  <s> AL </s>  <mark> BA </mark>  <mark> BC </mark>    \__ <mark>PG</mark>     /   |         |         
-      <mark> CE </mark>  <mark> CH </mark>  <mark> CL </mark>  <mark> CN </mark>       \       |   /      <mark>CN</mark> |         
-      <mark> CV </mark>  <s> DO </s>  <mark> FR </mark>  <mark> GA </mark>      _/    <mark>CL</mark> |   |  <mark>TA</mark>     |         
-      <mark> HA </mark>  <mark> HO </mark>  <mark> KE </mark>  <mark> MO </mark>    _/         /   /         |         
-      <mark> PG </mark>  <mark> QA </mark>  <mark> SM </mark>  <s> SO </s>   / <mark>CH</mark>       |    \ <s>DO</s>      |         
-      <mark> TA </mark>  <mark> WA </mark>  <s> WI </s>  <mark> WO </mark>   \_     <mark>SM</mark>  |    /      <s>WI</s> |_______  
+                                            <!--  DISTRIBUTION HEADER  -->
+
+<hr />
+<h2 id="DISTRIBUTION">DISTRIBUTION</h2>
+<div class="species-header">SPECIES: Phegopteris hexagonoptera</div>
+<hr class="thin" />
+
+                                            <!--  MD  COUNTY MAP  -->
+
+      <div class="distribution-map">
+    <pre>
+     _____________________________________________________         
+    |         <s>AL</s>  ______   <mark>WA</mark>                <mark>HA</mark>    ___ <mark>CE</mark> |         
+    |  <mark>GA</mark>     ___/      \_         <mark>CV</mark>   <mark>BA</mark>       _/  /    |         
+    |     ___/            \   <mark>FR</mark>               _/  _/     |         
+    | ___/                 \_      <mark>HO</mark>   <mark>BC</mark>    /   /    <mark>KE</mark> |         
+    |/                       \_ <mark>MO</mark>           |   /        |         
+                               \_        <mark>AA</mark>  /  /   <mark>QA</mark>    |         
+       <mark> AA </mark>  <s> AL </s>  <mark> BA </mark>  <mark> BC </mark>    \__ <mark>PG</mark>     /   |         |         
+       <mark> CE </mark>  <mark> CH </mark>  <mark> CL </mark>  <mark> CN </mark>       \       |   /      <mark>CN</mark> |         
+       <mark> CV </mark>  <s> DO </s>  <mark> FR </mark>  <mark> GA </mark>      _/    <mark>CL</mark> |   |  <mark>TA</mark>     |         
+       <mark> HA </mark>  <mark> HO </mark>  <mark> KE </mark>  <mark> MO </mark>    _/         /   /         |         
+       <mark> PG </mark>  <mark> QA </mark>  <mark> SM </mark>  <s> SO </s>   / <mark>CH</mark>       |    \ <s>DO</s>      |         
+       <mark> TA </mark>  <mark> WA </mark>  <s> WI </s>  <mark> WO </mark>   \_     <mark>SM</mark>  |    /      <s>WI</s> |_______  
                                   \____    \    \_               /   
                                        \__ |      \_ <s>SO</s>    <mark>WO</mark>  _/  
                                           \|        \_________/     
-</pre></div></td></tr></table></h2></font>
+    </pre>
+      </div>
 
+                                        <!-- DISTRIBUTION TEXT BOX --> 
 
-<b>ECOSYSTEMS : </b>
+<div class="content-block">
+<b>ECOSYSTEMS:</b>
 
-<b>STATES : </b>
+<b>STATES:</b>
 
-<b>BLM PHYSIOGRAPHIC REGIONS : </b>
+<b>BLM PHYSIOGRAPHIC REGIONS:</b>
 
-<b>KUCHLER PLANT ASSOCIATIONS : </b>
+<b>KUCHLER PLANT ASSOCIATIONS:</b>
 
-<b>SAF COVER TYPES : </b>
+<b>SAF COVER TYPES:</b>
 
-<b>SRM (RANGELAND) COVER TYPES : </b>
+<b>SRM (RANGELAND) COVER TYPES:</b>
 
-<b>HABITAT TYPES AND PLANT COMMUNITIES : </b>
+<b>HABITAT TYPES AND PLANT COMMUNITIES:</b>
 
-<hr><a name="DISTRIBUTION"></a><pre><center><h2><font size="+3">
-DISTRIBUTION</h2></center></font><font size="+2" color=#98ff98><b>SPECIES: Phegopteris hexagonoptera</b>
-</b></font><hr size="2">
-<b>GENERAL BOTANICAL CHARACTERISTICS : </b>
+<b>GENERAL BOTANICAL CHARACTERISTICS:</b>
 
-<b>RAUNKIAER LIFE FORM : </b>
+<b>RAUNKIAER LIFE FORM:</b>
 
-<b>SUCCESSIONAL STATUS : </b>
+<b>SUCCESSIONAL STATUS:</b>
 
-<b>SEASONAL DEVELOPMENT : </b>
+<b>SEASONAL DEVELOPMENT:</b>
 
+</div>
 <a href="https://fleshamalgam.github.io/taxtrees/homepage">HOME</a>
+      
 </body>
 </html>
+
