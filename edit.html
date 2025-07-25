@@ -2,64 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FEIS Notepad Editor</title>
+  <title>FEIS-style Editor</title>
   <style>
     body {
       margin: 0;
-      font-family: "Courier New", Courier, monospace;
       background-color: white;
+      font-family: "Courier New", Courier, monospace;
       color: black;
     }
+
     .toolbar {
       background-color: #336633;
       color: white;
       padding: 10px 15px;
       font-size: 16px;
+      font-weight: bold;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-weight: bold;
     }
-    #editor {
-      width: 100%;
-      height: calc(100vh - 50px);
-      padding: 20px;
-      white-space: pre;
-      overflow: auto;
-      font-family: "Courier New", Courier, monospace;
-      font-size: 14px;
-      line-height: 1.2;
-      outline: none;
-    }
+
     button {
       font-family: monospace;
       font-size: 14px;
       padding: 6px 12px;
       cursor: pointer;
     }
+
+    #editor {
+      padding: 20px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 14px;
+      line-height: 1.2;
+      white-space: pre;
+      overflow: auto;
+      height: calc(100vh - 50px);
+      outline: none;
+    }
   </style>
 </head>
 <body>
 
   <div class="toolbar">
-    FEIS Editor
+    FEIS-style Editor
     <button onclick="saveContent()">💾 Save to Public Site</button>
   </div>
 
   <pre id="editor" contenteditable="true" spellcheck="false">
-ABBREVIATION :
-EQUARV
+<font size="+1"><b>SPECIES:</b> Equisetum arvense
 
-SYNONYMS :
+<b>ABBREVIATION :</b> EQUARV
+
+<b>SYNONYMS :</b> 
   Equisetum arvense var. alpestre Wahlenb.
   E. a. var. boreale (Bong.) Rupr.
   E. a. var. riparium Farw.
   E. calderi Boivin
+
+<b>COMMON NAMES :</b>
+  field horsetail
+  common horsetail
+</font>
   </pre>
 
   <script>
     async function saveContent() {
-      const content = document.getElementById("editor").innerText;
+      const editor = document.getElementById("editor");
+      const content = editor.innerText;
       const token = prompt("Enter your GitHub Personal Access Token:");
 
       if (!token) {
@@ -81,17 +90,16 @@ SYNONYMS :
         const fileData = await getRes.json();
         const sha = fileData.sha;
 
-        const fullHtml = `
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>Custom FEIS Page</title></head>
+        const htmlOutput = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FEIS Page</title>
+</head>
 <body bgcolor="white">
-<hr size="3">
-<pre style="font-family: 'Courier New', Courier, monospace; font-size: 14px; line-height: 1.2;">
+<pre><font size="+1" face="Courier New">
 ${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
-</pre>
-<hr size="3">
+</font></pre>
 </body>
 </html>`;
 
@@ -99,23 +107,23 @@ ${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
           method: "PUT",
           headers,
           body: JSON.stringify({
-            message: "Update site content via FEIS editor",
-            content: btoa(unescape(encodeURIComponent(fullHtml))),
+            message: "Update FEIS-style content",
+            content: btoa(unescape(encodeURIComponent(htmlOutput))),
             sha,
             branch
           })
         });
 
         if (updateRes.ok) {
-          alert("✅ Updated! Visit your site:\nhttps://fleshamalgam.github.io/taxtrees/");
+          alert("✅ Saved! View your site at:\nhttps://fleshamalgam.github.io/taxtrees/");
         } else {
           const err = await updateRes.json();
+          alert("❌ Error saving: " + (err.message || "Unknown error"));
           console.error(err);
-          alert("❌ Save failed: " + (err.message || "unknown error"));
         }
       } catch (err) {
         console.error(err);
-        alert("❌ Error fetching or updating file.");
+        alert("❌ Failed to update GitHub file.");
       }
     }
   </script>
