@@ -1,104 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Edit Notepad</title>
+  <meta charset="UTF-8" />
+  <title>Editable FEIS-Style Page</title>
   <style>
-    body { margin: 0; background: #c0c0c0; font-family: "Courier New", monospace; }
-    .window { width: 80%; margin: 50px auto; border: 2px solid #000; box-shadow: 5px 5px #555; background: white; }
-    .title-bar { background: #000080; color: white; padding: 4px 8px; font-weight: bold; }
-    .menu-bar { background: #e0e0e0; padding: 4px 8px; font-size: 14px; display: flex; justify-content: space-between; }
-    .content { padding: 10px; white-space: pre-wrap; min-height: 400px; outline: none; }
-    button { font-family: monospace; font-size: 14px; }
-  </style>
-</head>
-<body>
-  <div class="window">
-    <div class="title-bar">Edit Mode - Notepad</div>
-    <div class="menu-bar">
-      <span>File  Edit  Format  View  Help</span>
-      <button onclick="saveContent()">💾 Save</button>
-    </div>
-    <div class="content" id="editor" contenteditable="true" spellcheck="false">
-Edit your content here. Click "Save" to update the live page.
-    </div>
-  </div>
-
-  <script>
-    async function saveContent() {
-      const content = document.getElementById("editor").innerText;
-      const token = prompt("Enter your GitHub Personal Access Token:");
-
-      if (!token) return alert("No token provided. Cancelled.");
-
-      const filePath = "index.html";
-      const repo = "fleshamalgam/taxtrees";
-      const branch = "main";
-
-      const getUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
-      const headers = {
-        "Authorization": `token ${token}`,
-        "Accept": "application/vnd.github.v3+json"
-      };
-
-      try {
-        const response = await fetch(getUrl, { headers });
-        const fileData = await response.json();
-
-        if (!fileData.sha) {
-          throw new Error("Could not find SHA for file. Check that index.html exists in the root of the repo.");
-        }
-
-        const sha = fileData.sha;
-
-        const newHtml = `
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Untitled - Notepad</title>
-  <style>
-    body { margin: 0; background: #c0c0c0; font-family: "Courier New", monospace; }
-    .window { width: 80%; margin: 50px auto; border: 2px solid #000; box-shadow: 5px 5px #555; background: white; }
-    .title-bar { background: #000080; color: white; padding: 4px 8px; font-weight: bold; }
-    .menu-bar { background: #e0e0e0; padding: 4px 8px; font-size: 14px; }
-    .content { padding: 10px; white-space: pre-wrap; min-height: 400px; }
-  </style>
-</head>
-<body>
-  <div class="window">
-    <div class="title-bar">Untitled - Notepad</div>
-    <div class="menu-bar">File  Edit  Format  View  Help</div>
-    <div class="content">
-${content.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
-    </div>
-  </div>
-</body>
-</html>`;
-
-        const updateResponse = await fetch(getUrl, {
-          method: "PUT",
-          headers,
-          body: JSON.stringify({
-            message: "Update Notepad content via edit.html",
-            content: btoa(unescape(encodeURIComponent(newHtml))),
-            sha: sha,
-            branch: branch
-          })
-        });
-
-        if (updateResponse.ok) {
-          alert("✅ Saved! View your site at:\nhttps://fleshamalgam.github.io/taxtrees/");
-        } else {
-          const error = await updateResponse.json();
-          console.error(error);
-          alert("❌ Error saving: " + (error.message || "Unknown error."));
-        }
-      } catch (err) {
-        console.error(err);
-        alert("❌ Failed to fetch file info. Check if index.html exists and token is valid.");
-      }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000;
     }
-  </script>
+    header {
+      background-color: #336633;
+      color: white;
+      padding: 12px 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+    }
+    nav {
+      width: 220px;
+      background-color: #eeeeee;
+      padding: 15px;
+      border-right: 1px solid #ccc;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    main {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    .editor {
+      min-height: 90vh;
+      border: 1px solid #ccc;
+      padding: 20px;
+      white-space: pre-wrap;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Species Information System (Editable)
+  </header>
+
+  <div class="container">
+    <nav>
+      <strong>Sections</strong>
+      <ul>
+        <li><em>(Empty for now)</em></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="editor" class="editor" contenteditable="true" spellcheck="false">
+        <!-- Start typing your content here. -->
+      </div>
+    </main>
+  </div>
+
 </body>
 </html>
