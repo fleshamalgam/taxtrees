@@ -103,19 +103,19 @@
       padding-left: 1ch;
     }
 
-    .centered-img {
-      display: block;
-      margin: 0 auto;
-      width: 50%;
-      max-width: 100%;
-      height: auto;
-    }
+.centered-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 50vw; /* 50% of viewport width */
+}
 
-    @media (max-width: 768px) {
-      .centered-img {
-        width: 100%;
-      }
-    }
+@media (max-width: 768px) {
+  .centered-img {
+    width: 100vw; /* 100% of viewport width */
+  }
+}
 
     h2 {
       text-align: center;
