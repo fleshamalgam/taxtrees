@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Phegopteris hexagonoptera</title>
+  <title>id="species-name"</title>
   <style>
     body {
       background-color: #101010;
@@ -31,7 +31,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-bottom: 10px;
+      padding-bottom: 0px;
     }
 
     .title {
@@ -56,7 +56,7 @@
       margin: 10px 0;
     }
 
-    .common-name-header {
+    .species-name-header {
       font-size: 2em;
       color: #98ff98;
       font-weight: bold;
@@ -66,12 +66,14 @@
       font-size: 1.1em;
       color: #98ff98;
       font-weight: bold;
+      margin-top: -28px;
     }
 
     .subsection {
       font-size: 1.5em;
       color: #98ff98;
       font-style: italic;
+      padding-bottom: 10px;
     }
 
     .taxonomy {
@@ -133,7 +135,7 @@
 <div><a href="">HOME</a></div>
 </header>
 <hr class="thick" />
-<div class="common-name-header">Phegopteris hexagonoptera</div>
+<div class="species-name-header species-name"></div>
 <div class="subsection">broad beech fern</div>
 <hr class="thin" />
 
@@ -154,7 +156,7 @@
 
 <hr class="thin" />
 <h2 id="TAXONOMY">TAXONOMY</h2>
-<div class="species-header">SPECIES: Phegopteris hexagonoptera</div>
+<div class="species-header species-name"></div>
 <hr class="thin" />
   
                                             <!--     TAX TREE      -->
@@ -198,9 +200,9 @@ broad beech fern</div>
 
                                             <!--  DISTRIBUTION HEADER  -->
 
-<hr />
+<hr class="thin" />
 <h2 id="DISTRIBUTION">DISTRIBUTION</h2>
-<div class="species-header">SPECIES: Phegopteris hexagonoptera</div>
+<div class="species-header species-name"></div>
 <hr class="thin" />
 
                                             <!--  MD  COUNTY MAP  -->
@@ -257,6 +259,16 @@ broad beech fern</div>
 --> 
 <a href="">HOME</a>
 
+                                        <!-- SPECIES NAME FOR PAGE --> 
+
+<script>
+  const speciesName = "Phegopteris hexagonoptera";
+
+  document.querySelectorAll('.species-name').forEach(el => {
+    el.textContent = speciesName;
+  });
+</script>
+
+
 </body>
 </html>
-
