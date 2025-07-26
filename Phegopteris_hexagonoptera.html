@@ -100,11 +100,19 @@
     .indented {
       padding-left: 1ch; /* indent all following lines */
     }
-
+    
     .centered-img {
       display: block;
-      margin: 0 auto;
-      width: 50%; /* or 400px */
+      margin: 0; /* aligns left */
+    }
+
+    .image-text-wrapper {
+      display: inline-block; /* keeps image and text together */
+      text-align: left;
+    }
+
+    .aligned-img {
+      display: block; /* ensures no text wraps around */
     }
     
     h2 {
@@ -144,7 +152,10 @@
 <li><a href="#DISTRIBUTION">distribution</a></li>
 </ul>
 
-<img src="assets/Phegopteris_hexagonoptera_image.png" alt="Phegopteris hexagonoptera" class="centered-img"><div class="content-block">P. hexagonoptera, HA, <a href="https://www.thebiofiles.com/">Bill Hubick</a>, Georgia, Herbarium of UGA</div>
+<div class="image-text-wrapper">
+  <img src="assets/Phegopteris_hexagonoptera_image.png" alt="Phegopteris hexagonoptera" class="aligned-img">
+  <div class="content-block">P. hexagonoptera, HA, <a href="https://www.thebiofiles.com/">Bill Hubick</a>, Georgia, Herbarium of UGA</div>
+</div>
   
                                             <!--  TAXONOMY HEADER  -->
 
