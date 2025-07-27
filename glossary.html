@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>id="species-name"</title>
+  <style>
+    body {
+      background-color: #101010;
+      color: white;
+      font-family: monospace;
+      font-size: 14px;
+      margin: 0;
+      padding: 20px;
+    }
+
+    mark {
+      background-color: #98ff98;
+      color: #101010;
+    }
+
+    a {
+      color: #6C8BD9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0px;
+    }
+
+    .title {
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+      white-space: pre;
+      flex: 1; /* makes it grow to take available space */
+    }
+
+    hr.thick {
+      border: 0;
+      height: 5px;
+      background: white;
+      margin: 20px 0;
+    }
+
+    hr.thin {
+      border: 0;
+      height: 2px;
+      background: white;
+      margin: 10px 0;
+    }
+
+    .species-name-header {
+      font-size: 2em;
+      color: #98ff98;
+      font-weight: bold;
+    }
+
+    .species-header {
+      font-size: 1.1em;
+      color: #98ff98;
+      font-weight: bold;
+      margin-top: -28px;
+    }
+
+    .subsection {
+      font-size: 1.5em;
+      color: #98ff98;
+      font-style: italic;
+      padding-bottom: 10px;
+    }
+
+    .content-block {
+      white-space: pre-wrap;    /* preserve spaces and line breaks */
+      font-family: monospace;   /* match <pre> font style */
+      word-wrap: break-word;    /* wrap long words if needed */
+      max-width: 800px;
+      margin: 0;
+      padding: 0px;
+    }
+
+    .indented {
+      padding-left: 1ch; /* indent all following lines */
+    }
+    
+    .centered-img {
+      display: block;
+      margin: 0 auto;
+      width: 50%; /* or 400px */
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.75em;
+      color: white;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: #6C8BD9;
+    }
+  </style>
+</head>
+<body>
+    
+                                            <!--      HEADER       -->
+
+<header>
+<div class="title">T  A  X  T  R  E  E  S</div>
+<div><a href="">HOME</a></div>
+</header>
+<hr class="thick" />
+
+                                            <!--       LINKS       -->
+
+<ul>
+<li><a href="#MORPHOLOGY">morphology</a></li>
+</ul>
+
+                                            <!--  MORPHOLOGY HEADER  -->
+
+<hr class="thin" />
+<h2 id="MORPHOLOGY">MORPHOLOGY</h2>
+<hr class="thin" />
+
+                                            <!-- MORPHOLOGY TEXT BOX -->
+
+<div class="content-block">
+<b id="Rhizome">Rhizomatous:</b>
+<div class="indented">Proliferating by means of underground, horizontal stems <a href="#Rhizome">rhizomes</a></div>
+<b id="Rhizome">Rhizome:</b> 
+<div class="indented">Underground, horizontal stem.</div>
+</div>
+
+<a href="">HOME</a>
+
+</body>
+</html>
