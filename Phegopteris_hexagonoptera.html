@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title id="species-name">Phegopteris hexagonoptera</title>
+  <title>id="species-name"</title>
   <style>
     body {
       background-color: #101010;
@@ -39,7 +39,7 @@
       font-weight: bold;
       text-align: center;
       white-space: pre;
-      flex: 1;
+      flex: 1; /* makes it grow to take available space */
     }
 
     hr.thick {
@@ -80,7 +80,7 @@
       display: flex;
       justify-content: center;
       white-space: pre;
-      font-size: 1.2em;
+      font-size: 1em;
     }
 
     .distribution-map {
@@ -91,36 +91,30 @@
     }
 
     .content-block {
-      white-space: pre-wrap;
-      font-family: monospace;
-      word-wrap: break-word;
+      white-space: pre-wrap;    /* preserve spaces and line breaks */
+      font-family: monospace;   /* match <pre> font style */
+      word-wrap: break-word;    /* wrap long words if needed */
       max-width: 800px;
       margin: 0;
       padding: 0px;
     }
 
     .indented {
-      padding-left: 1ch;
+      padding-left: 1ch; /* indent all following lines */
     }
-
-.centered-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  width: 50vw; /* 50% of viewport width */
-}
-
-@media (max-width: 768px) {
-  .centered-img {
-    width: 100vw; /* 100% of viewport width */
-  }
-}
+    
+    .centered-img {
+      display: block;
+      margin: 0 auto;
+      width: 50%; /* or 400px */
+    }
 
     h2 {
       text-align: center;
       font-size: 1.75em;
       color: white;
+      padding-top: 7px;
+      padding-bottom: 7px;
     }
 
     ul {
@@ -135,35 +129,40 @@
   </style>
 </head>
 <body>
+    
+                                            <!--      HEADER       -->
 
-  <!-- HEADER -->
-  <header>
-    <div class="title">T  A  X  T  R  E  E  S</div>
-    <div><a href="">HOME</a></div>
-  </header>
+<header>
+<div class="title">T  A  X  T  R  E  E  S</div>
+<div><a href="">HOME</a></div>
+</header>
+<hr class="thick" />
+<div class="species-name-header species-name"></div>
+<div class="subsection">broad beech fern</div>
+<hr class="thin" />
 
-  <hr class="thick" />
-  <div class="species-name-header species-name"></div>
-  <div class="subsection">broad beech fern</div>
-  <hr class="thin" />
+                                            <!--       LINKS       -->
 
-  <!-- LINKS -->
-  <ul>
-    <li><a href="#TAXONOMY">taxonomy</a></li>
-    <li><a href="#DISTRIBUTION">distribution</a></li>
-  </ul>
+<ul>
+<li><a href="#TAXONOMY">taxonomy</a></li>
+<li><a href="#DISTRIBUTION">distribution</a></li>
+</ul>
 
-  <!-- IMAGE -->
-  <img src="assets/Phegopteris_hexagonoptera_image.png" alt="Phegopteris hexagonoptera" class="centered-img">
-  <div class="content-block">P. hexagonoptera, HA, <a href="https://www.thebiofiles.com/">Bill Hubick</a>, Georgia, Herbarium of UGA</div>
+<img src="assets/Phegopteris_hexagonoptera_image.png" alt="Phegopteris_hexagonoptera" class="centered-img">
 
-  <!-- TAXONOMY HEADER -->
-  <hr class="thin" />
-  <h2 id="TAXONOMY">TAXONOMY</h2>
-  <div class="species-header species-name"></div>
-  <hr class="thin" />
 
-  <!-- TAX TREE -->
+<div class="content-block">P. hexagonoptera, HA, <a href="https://www.thebiofiles.com/">Bill Hubick</a>, Georgia, Herbarium of UGA</div>
+
+  
+                                            <!--  TAXONOMY HEADER  -->
+
+<hr class="thin" />
+<h2 id="TAXONOMY">TAXONOMY</h2>
+<div class="species-header species-name"></div>
+<hr class="thin" />
+  
+                                            <!--     TAX TREE      -->
+                                            
   <div class="taxonomy">
 <pre>
 <b>Division</b>                                     Tracheophyta            (Vascular plants)
@@ -176,10 +175,11 @@
                         └── <b>Subfamily</b>        Phegopteridoideae   
                             └── <b>Genus</b>        <a href="">Phegopteris</a>             (Beech ferns)
 </pre>
-  </div>
+</div>
 
-  <!-- TAXONOMY TEXT BOX -->
-  <div class="content-block">
+                                            <!-- TAXONOMY TEXT BOX -->
+
+<div class="content-block">
 <b>TAXONOMIC CODE:</b> 
 <div class="indented">PHEHEX</div>
 <b>ITIS SERIAL ID:</b> 
@@ -198,45 +198,79 @@ broad beech fern</div>
 <div class="indented">Forests, swamps, wetland margins</div>
 <b>GROWTH FORM:</b> 
 <div class="indented">Terrestrial</div>
-  </div>
+</div>
 
-  <!-- DISTRIBUTION HEADER -->
-  <hr class="thin" />
-  <h2 id="DISTRIBUTION">DISTRIBUTION</h2>
-  <div class="species-header species-name"></div>
-  <hr class="thin" />
+                                            <!--  DISTRIBUTION HEADER  -->
 
-  <!-- MD COUNTY MAP -->
-  <div class="distribution-map">
-<pre>
- _____________________________________________________         
-|         <s>AL</s>  ______   <mark>WA</mark>                <mark>HA</mark>    ___ <mark>CE</mark> |         
-|  <mark>GA</mark>     ___/      \_         <mark>CV</mark>   <mark>BA</mark>       _/  /    |         
-|     ___/            \   <mark>FR</mark>               _/  _/     |         
-| ___/                 \_      <mark>HO</mark>   <mark>BC</mark>    /   /    <mark>KE</mark> |         
-|/                       \_ <mark>MO</mark>           |   /        |         
-                          \_        <mark>AA</mark>  /  /   <mark>QA</mark>    |         
-  <mark> AA </mark>  <s> AL </s>  <mark> BA </mark>  <mark> BC </mark>    \__ <mark>PG</mark>     /   |         |         
-  <mark> CE </mark>  <mark> CH </mark>  <mark> CL </mark>  <mark> CN </mark>       \       |   /      <mark>CN</mark> |         
-  <mark> CV </mark>  <s> DO </s>  <mark> FR </mark>  <mark> GA </mark>      _/    <mark>CL</mark> |   |  <mark>TA</mark>     |         
-  <mark> HA </mark>  <mark> HO </mark>  <mark> KE </mark>  <mark> MO </mark>    _/         /   /         |         
-  <mark> PG </mark>  <mark> QA </mark>  <mark> SM </mark>  <s> SO </s>   / <mark>CH</mark>       |    \ <s>DO</s>      |         
-  <mark> TA </mark>  <mark> WA </mark>  <s> WI </s>  <mark> WO </mark>   \_     <mark>SM</mark>  |    /      <s>WI</s> |_______  
-                          \____    \    \_               /   
-                               \__ |      \_ <s>SO</s>    <mark>WO</mark>  _/  
-                                  \|        \_________/     
-</pre>
-  </div>
+<hr class="thin" />
+<h2 id="DISTRIBUTION">DISTRIBUTION</h2>
+<div class="species-header species-name"></div>
+<hr class="thin" />
 
-  <!-- FOOTER -->
-  <a href="">HOME</a>
+                                            <!--  MD  COUNTY MAP  -->
 
-  <!-- DYNAMIC SPECIES NAME -->
-  <script>
-    const speciesName = "Phegopteris hexagonoptera";
-    document.querySelectorAll('.species-name').forEach(el => {
-      el.textContent = speciesName;
-    });
-  </script>
+      <div class="distribution-map">
+    <pre>
+     _____________________________________________________         
+    |         <s>AL</s>  ______   <mark>WA</mark>                <mark>HA</mark>    ___ <mark>CE</mark> |         
+    |  <mark>GA</mark>     ___/      \_         <mark>CV</mark>   <mark>BA</mark>       _/  /    |         
+    |     ___/            \   <mark>FR</mark>               _/  _/     |         
+    | ___/                 \_      <mark>HO</mark>   <mark>BC</mark>    /   /    <mark>KE</mark> |         
+    |/                       \_ <mark>MO</mark>           |   /        |         
+                               \_        <mark>AA</mark>  /  /   <mark>QA</mark>    |         
+       <mark> AA </mark>  <s> AL </s>  <mark> BA </mark>  <mark> BC </mark>    \__ <mark>PG</mark>     /   |         |         
+       <mark> CE </mark>  <mark> CH </mark>  <mark> CL </mark>  <mark> CN </mark>       \       |   /      <mark>CN</mark> |         
+       <mark> CV </mark>  <s> DO </s>  <mark> FR </mark>  <mark> GA </mark>      _/    <mark>CL</mark> |   |  <mark>TA</mark>     |         
+       <mark> HA </mark>  <mark> HO </mark>  <mark> KE </mark>  <mark> MO </mark>    _/         /   /         |         
+       <mark> PG </mark>  <mark> QA </mark>  <mark> SM </mark>  <s> SO </s>   / <mark>CH</mark>       |    \ <s>DO</s>      |         
+       <mark> TA </mark>  <mark> WA </mark>  <s> WI </s>  <mark> WO </mark>   \_     <mark>SM</mark>  |    /      <s>WI</s> |_______  
+                                  \____    \    \_               /   
+                                       \__ |      \_ <s>SO</s>    <mark>WO</mark>  _/  
+                                          \|        \_________/     
+    </pre>
+      </div>
+
+                                        <!-- DISTRIBUTION TEXT BOX --> 
+<!--
+
+<div class="content-block">
+<b>ECOSYSTEMS:</b>
+
+<b>STATES:</b>
+
+<b>BLM PHYSIOGRAPHIC REGIONS:</b>
+
+<b>KUCHLER PLANT ASSOCIATIONS:</b>
+
+<b>SAF COVER TYPES:</b>
+
+<b>SRM (RANGELAND) COVER TYPES:</b>
+
+<b>HABITAT TYPES AND PLANT COMMUNITIES:</b>
+
+<b>GENERAL BOTANICAL CHARACTERISTICS:</b>
+
+<b>RAUNKIAER LIFE FORM:</b>
+
+<b>SUCCESSIONAL STATUS:</b>
+
+<b>SEASONAL DEVELOPMENT:</b>
+
+</div>
+
+--> 
+<a href="">HOME</a>
+
+                                        <!-- SPECIES NAME FOR PAGE --> 
+
+<script>
+  const speciesName = "Phegopteris hexagonoptera";
+
+  document.querySelectorAll('.species-name').forEach(el => {
+    el.textContent = speciesName;
+  });
+</script>
+
+
 </body>
 </html>
